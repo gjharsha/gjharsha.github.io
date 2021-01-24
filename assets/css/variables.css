@@ -1,0 +1,15 @@
+ /* Add css 4 variables below inside the :root tag */
+
+:root { 
+    --white: white;
+    --black: black;
+    --border-color: #ededed;
+    --text-color: #6a6a6a;
+    --secondary-color: #dd3333;
+    --text-color-2: #444;
+    --href-color: #993333;
+    --text-color-light: #8b8b8b;
+    --light-background: #F8F8F8;
+    --blue: #26367b;
+    --border-color-2: #e6e6e6;
+}

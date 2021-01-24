@@ -1,0 +1,23 @@
+@import './variables.css';
+
+.navbar {
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+
+.nav-link {
+    color: var(--text-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--black) !important;
+}
+
+.navbar-nav li {
+    margin-bottom: 0 !important;
+}
+
+.bg-light {
+    background: white !important;
+}

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Harsha Gangammanavar | Assistant Professor at SMU</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Import fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS and JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Application CSS and JS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-override.css">
+    <script src="scripts/script.js"></script>
+
+</head>
+
+<body>
+    <!-- Top Header Container -->
+    <div class="top-container fx-display">
+        <a href="#">Log In</a>
+    </div>
+
+    <div class="container">
+        <!-- Application Header Container-->
+        <header class="mtb30">
+
+            <nav class="navbar navbar-expand-sm bg-light navbar-light">
+                <a class="nav-link" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="research.html"><b>Research</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="teaching.html">Teaching</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="miscellaneous.html">Miscellaneous</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <h1 class="secondary-font secondary-color page-title"> Research</h1>
+        <h3 class="footer-link title-text" style="margin-bottom: 50px;">Know more about <a href="#" id="my-team"> My
+                Team
+            </a>and
+            <a href="#" id="my-publications"> My Publications </a>
+        </h3>
+
+        <!-- Research Introduction -->
+        <div class="research-container">
+            <div class="row">
+                <div class="col-md-7">
+                    <p class="p30 secondary-font ">My research interests lie at the intersection of large-scale
+                        stochastic optimization,
+                        uncertainty
+                        quantification, and optimal control. I am pursuing a data-driven/distribution-free integrative
+                        analytics
+                        framework. In this regard, I often rely upon methodologies developed in the field of stochastic
+                        programming and statistics. I also have a strong emphasis on developing effective software
+                        implementation of stochastic optimization algorithms. Most of my codes can be accessed at my
+                        Github
+                        profile page. My research is applicable in optimizing complex, and interconnected systems in an
+                        uncertain environment. I have successfully applied my research in the field of power systems and
+                        health
+                        care logistics. This page will provide a brief overview of my research which can also be
+                        accessed at <a href="https://scholar.google.com/citations?user=GIoUulsAAAAJ&hl=en" target="_blank">Google
+                            Scholar</a> and <a
+                            href="https://www.researchgate.net/profile/Harsha_Gangammanavar" target="_blank">ResearchGate</a>
+                    </p>
+
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/research.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- Methodologies Section -->
+        <div class="mtb30">
+            <div class="mtb30">
+                <h3 class="title-text"> Methodologies</h3>
+
+                <p class="footer-link" style="font-size: 18px"> <img src="assets/ideas.png" style="width:40px" />
+                    Sequential Sampling Algorithms: Two-stage Case</p>
+                <p>Stochastic decomposition (SD) has been a computationally effective approach to solve large-scale
+                    stochastic programming (SP) problems arising in practical applications. By using incremental
+                    sampling,
+                    this approach is designed to discover an appropriate sample size for a given SP instance, thus
+                    precluding the need for either scenario reduction or arbitrary sample sizes to create sample average
+                    approximations (SAA). SD provides solutions of similar quality in far less computational time using
+                    ordinarily available computational resources. However, previous versions of SD did not allow
+                    randomness
+                    to appear in the second-stage cost coefficients. In this research, we extend its capabilities by
+                    relaxing this assumption on cost coefficients in the second-stage. In addition to the algorithmic
+                    enhancements necessary to achieve this, we also present the details of implementing these extensions
+                    which preserve the computational edge of SD. Finally, we demonstrate the results obtained from the
+                    latest implementation of SD on a variety of test instances generated for problems from the
+                    literature.
+                    We compare these results with those obtained from the regularized L-shaped method applied to the SAA
+                    function with different sample sizes.</p>
+                <p class="footer-link"> Related Publication(s)</p>
+                <ul>
+                    <li>H.Gangammanavar, Y. Liu, and S. Sen, Stochastic Decomposition for stochastic linear programs
+                        with Random Cost Coefficient, 2018. <a
+                            href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2016/08/GLS_RandomCostSD_oo-135xppn.pdf"
+                            target="_blank">( preprint )</a> </li>
+                </ul>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="mtb30">
+
+                <p class="footer-link" style="font-size: 18px"><img src="assets/ideas.png" style="width:40px" />
+                    Sequential Sampling Algorithms: Multistage Case</p>
+                <p>Multistage stochastic programming deals with operational and planning problems that involve a
+                    sequence of decisions over time that respond to realizations that are uncertain. Algorithms designed
+                    to address multistage stochastic linear programming (MSLP) problems often rely
+                    upon scenario trees to provide a certain representation of the underlying stochastic process. When
+                    this process exhibits stage-wise independence, sampling-based techniques, particularly the
+                    stochastic dual dynamic programming (SDDP) algorithm, have received wide acceptance. However, these
+                    sampling-based methods still operate with a deterministic representation of the problem which uses
+                    the so-called sample average approximation. In this work, we present a sequential sampling approach
+                    for MSLP problems where exogenous uncertainty follows a stage-wise independent stochastic process
+                    which we refer to as the stochastic dynamic linear programming (SDLP) algorithm. Since we employ
+                    sequential sampling, the algorithm does not necessitate a-priori representation of uncertainty,
+                    either through scenario tree or sample average approximation, which requires the
+                    knowledge/estimation of the underlying distribution. In this regard, SDLP is a distribution-free
+                    approach to address MSLP problems. We employ regularization at non-terminal stages and have a
+                    piecewise-affine policy discovery scheme to identify incumbent solutions used in the regularization
+                    term embedded into the algorithm. The SDLP algorithm is shown to provide asymptotically convergent
+                    value functions and an optimal solution, with probability one.</p>
+                <p class="footer-link"> Related Publication(s)</p>
+                <ul>
+                    <li>H. Gangammanavar and S. Sen, Stochastic Dynamic Linear Programming: An Online Multistage
+                        Stochastic Programming Algorithm, 2018.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Applications Section -->
+        <div>
+            <div class="mtb30">
+                <h3 class="title-text"> Applications</h3>
+
+                <p class="footer-link" style="font-size: 18px"><img src="assets/ideas.png" style="width:40px" />
+                    Sequential Sampling Stochastic Programming Framework
+                    for Power Systems (Multistage Case)</p>
+                <p>This work is motivated by a power system with storage devices at multiple locations which need to be
+                    controlled at a much finer timescale than that necessary for conventional generation units. We
+                    present a stochastic optimization model of the power system which captures interactions of decisions
+                    at these two timescales through a novel state-variable formulation. The model also includes
+                    transmission constraints approximated by a linearized DC network, fast response operating reserves,
+                    and renewable generation. To tackle this high-dimensional multistage stochastic optimization
+                    problem, we present a sequential sampling method which we refer to as the Stochastic Dynamic Linear
+                    Programming. This algorithm is a dynamic extension of regularized two-stage stochastic decomposition
+                    for stagewise independent multistage stochastic linear programs and is targeted at the class of
+                    problems where decisions are made at two different timescales. We compare our algorithm with the
+                    stochastic dual dynamic programming (SDDP) which has been effectively applied in planning power
+                    systems operations. Our computational results show that our sequential Monte-Carlo approach provides
+                    prescriptive solutions and values which are statistically indistinguishable from those obtained from
+                    SDDP while improving computational times significantly.</p>
+                <p class="footer-link"> Related Publication(s)</p>
+                <ul>
+                    <li>H. Gangammanavar and S. Sen, Two-scale Stochastic Optimization for Controlling Distributed
+                        Storage Devices, accepted for publication in IEEE Transaction on Smart Grid, 2016. <a
+                            href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2016/10/ToSG2016_SDLdistributedStorageControl.pdf"
+                            target="_blank">( preprint )</a> <a
+                            href="https://ieeexplore.ieee.org/abstract/document/7588995/" target="_blank">( online )</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="mtb30">
+                <p class="footer-link" style="font-size: 18px"><img src="assets/ideas.png" style="width:40px" />
+                    Sequential Sampling Stochastic Programming Framework
+                    for Power Systems (Two-stage Case)</p>
+                <p>This set of work is motivated by the difficulty in operating power systems with significant renewable
+                    generation. Due to the intermittent and uncertain nature of renewable generation, particularly wind
+                    and solar, obtaining a set of scenarios that reliably capture these characteristics is difficult.
+                    Therefore, this work proposes a stochastic programming framework that combines optimization with a
+                    sequential sampling of scenarios that can potentially be generated by state-of-the-art generators.
+                    Our results demonstrate that when compared with standard approaches, the sequential sampling
+                    approach provides better solutions with significantly less computational time. We have applied this
+                    framework to solve the sub-hourly economic dispatch problem, and to estimate operating reserve
+                    requirements.</p>
+                <p class="footer-link"> Related Publication(s)</p>
+                <ul>
+                    <li>H. Gangammanavar, S. Sen and V. M. Zavala, Stochastic Optimization of Sub-Hourly Economic
+                        Dispatch With Wind Energy, in IEEE Transactions on Power Systems, 31(2), 949-959, March 2016. <a
+                            href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2016/10/ToPS2016_subhourlyEconomicDispatch.pdf"
+                            target="_blank">( preprint )</a> <a
+                            href="https://ieeexplore.ieee.org/document/7065337/?arnumber=7065337&tag=1"
+                            target="_blank">( online )</a>
+                    </li>
+                    <li>Site Wang, H. Gangammanavar, S. D. Eksioglu, and S. Mason, Estimating Operating Reserve
+                        Requirements using Rolling Horizon Stochastic Optimization, 2016. <a
+                            href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2016/10/ToPS_OperatingReserveRequirements-1.pdf"
+                            target="_blank">( preprint )</a>
+                    </li>
+                    <li>Shasha Wang, H. Gangammanavar, S. D. Eksioglu, and S. Mason, Stochastic Optimization for Energy
+                        Management in Power Systems with Multiple Microgrids, 2017 <a
+                            href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2016/10/ToSG2016_SDLdistributedStorageControl.pdhttps://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2017/03/Stochastic-Optimization-for-Energy-Management-in0APower-Systems-with-Multiple-Microgrids.pdf"
+                            target="_blank">( preprint )</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="mtb30">
+                <p class="footer-link" style="font-size: 18px"><img src="assets/ideas.png" style="width:40px" />
+                    Stochastic Programming Approach for Vaccine Vial
+                    Distribution</p>
+                <p>In developing countries immunization programs often involve targeted outreach services in remote
+                    locations. Organizations managing these programs are in need of tools which identify inventory
+                    replenishment and vaccine utilization plans to minimize costs and wastage while achieving greater
+                    coverage level. Wastage incurs when doses are discarded from open vials after their safe use time.
+                    The goal is to identify portfolios of different sized vaccine vials, and policies to determine how
+                    these vials are opened when patient arrivals are uncertain. Our approach provides tools to develop
+                    simple and economic vaccine administration policies usable by healthcare administrators.</p>
+                <p class="footer-link"> Related Publication(s)</p>
+                <ul>
+                    <li>Z. Azadi, H. Gangammanavar, and S. D. Eksioglu, Stochastic Programming Approach for Vaccine Vile
+                        Distribution, submitted in 2016. <a
+                            href="http://www.optimization-online.org/DB_HTML/2016/08/5600.html" target="_blank">(
+                            preprint )</a>
+                    </li>
+                    <li>Z. Azadi, H. Gangammanavar and S. D. Eksioglu, Stochastic Optimization for Vaccine Vial
+                        Replenishment, in Proceedings of the 2016 Industrial and Systems Engineering Research Conference
+                        (ISERC), Anaheim, CA. <a
+                            href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2016/10/ISERC2016_vaccineVialDistribution.pdf"
+                            target="_blank">( preprint )</a>
+                    </li>
+                    <li><b>Second place in INFORMS Minority Issue Forum </b>Poster Competition, Annual Meeting 2016,
+                        Nashville,
+                        Stochastic Vaccine Vial Replenishment and Administration Optimization: A case study in
+                        Bangladesh.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- My Team Container -->
+        <div class="my-team-container p30" id="my-team-container">
+            <h3 class="title-text"> My Team</h3>
+
+            <div class=" fx-display" style="justify-content: flex-start">
+                <div class="student-block-left fx-display fx-centered">
+                    <div class="image-icon-container sakitha-icon"></div>
+                    <div class="student-container ml20">
+                        <div class="footer-link">Sakitha Ariyarathne </div>
+                        <div class="small-text">Current Student</div>
+                        <p class="light-text">Operations Research Ph.D. student</p>
+                        <div> <b>Topic: </b> Design and Analysis of Stochastic Electricity Market Clearing Problems.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fx-display" style="justify-content: flex-end">
+                <div class="student-block-right fx-display fx-centered">
+
+                    <div class="student-container fx-display fx-vertical mr20">
+                        <div class="footer-link right-align">Niloofar Fadavi </div>
+                        <div class="small-text right-align">Current Student</div>
+                        <p class="light-text right-align">Operations Research Ph.D. student</p>
+                        <div class="right-align"> <b>Topic: </b> Inexact Bundle Methods for Large-scale Stochastic
+                            Convex Programming
+                        </div>
+                    </div>
+
+                    <div class="image-icon-container niloofar-icon">
+                    </div>
+                </div>
+            </div>
+
+            <div class="fx-display" style="justify-content: flex-start">
+                <div class="student-block-left fx-display fx-centered">
+                    <div class="image-icon-container siavash-icon">
+                    </div>
+                    <div class="student-container" style="margin-left: 20px;">
+                        <div class="footer-link">Siavash Tabrizian </div>
+                        <div class="small-text">Current Student</div>
+                        <p class="light-text">Operations Research Ph.D. candidate (Co-advised with Prof. Halit Uster)
+                        </p>
+
+                        <div> <b>Topic: </b> Sampling-based Methods for Two-stage Stochastic Programming.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fx-display" style="justify-content: flex-end">
+                <div class="student-block-right fx-display fx-centered">
+
+                    <div class="student-container fx-display fx-vertical mr20">
+                        <div class="footer-link right-align">Nahal Sakhavand </div>
+                        <div class="small-text right-align">Former Student</div>
+                        <p class="light-text right-align">Operations Research M.S. (Summer 2018)</p>
+
+                        <div class="right-align"><b>Topic: </b> Internal Sampling-based Methods for Power Systems
+                            Operations Problems.
+                            First position: Ph.D. student in IMSE, UT at Arlington.
+                        </div>
+                    </div>
+                    <div class="image-icon-container nahal-icon">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Publications Container -->
+        <div style="margin-top: 50px" id="my-publications-container" class="p30">
+            <h1 class="secondary-font secondary-color" style="text-align: center;"> My Publications</h1>
+            </br>
+            <h4>Selected Preprints/Submitted Manuscripts</h4>
+            </br>
+            <ol>
+                <li>
+                    S. Tabrizian, H. Gangammanavar, and H. Uster, An Adaptive Cluster Sampling-based Solution Method for
+                    Two-stage Stochastic Linear Programs, 2020.
+                </li>
+                <li>
+                    H. Gangammanavar and M. Bansal, Stochastic Decomposition Method for Two-Stage Distributionally
+                    Robust Optimization, 2020.
+                    <a href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2020/11/Gangammanavar_Bansal_DRSDv1.pdf"
+                        target="_blank">( preprint )</a>
+                </li>
+                <li>
+                    N. Sakhavand and H. Gangammanavar, Subproblem Sampling-based Stochastic Programming Method for Power
+                    Systems Planning and Operations Problems, 2020.
+                    <a href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2020/11/Gangammanavar_Bansal_DRSDv1.pdf"
+                        target="_blank">( preprint )</a>
+                </li>
+                <li>
+                    A. Alobaidi, M. Khodayar, A. Vafamehr, H. Gangammanavar, and M. Khodayar, Security Constrained
+                    Expansion Planning of Battery Energy Storage in Distribution Network with Data Centers, 2020.
+                </li>
+                <li>
+                    S. Yin, J. Wang, and H. Gangammanavar, Stochastic Market Operation for Coordinated Transmission and
+                    Distribution Systems, 2020.
+                </li>
+                <li>
+                    S. Atakan, H. Gangammanavar, and S. Sen, Stochastic Hierarchical Planning for High RenewablePower
+                    Systems, 2019.
+                    <a href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2019/09/tamingDuck_oo.pdf"
+                        target="_blank">( preprint )</a>
+                </li>
+                <li>
+                    H. Gangammanavar and S. Sen, Stochastic Dynamic Linear Programming: A Sequential Sampling-based
+                    Multistage Stochastic Programming Algorithm, 2019.
+                    <a href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2020/11/sdlp_arXiv.pdf"
+                        target="_blank">( preprint )</a>
+                </li>
+            </ol>
+            </br>
+
+            <div class="divider"></div>
+
+            </br>
+            <h4>Journal Publications</h4>
+            </br>
+            <ol reversed>
+                <li>S. Wang, S. Mason, and H. Gangammanavar,<i> Stochastic Optimization for Flow-shop Scheduling with
+                        On-site Renewable Energy Generation using a case in the United States </i>,<b> Computers &
+                        Industrial
+                        Engineering </b>, accepted for publication, 2020.
+                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0360835220305167?via%3Dihub"
+                        target="_blank"> ( online )</a>
+                </li>
+
+                <li>S. Wang, H. Gangammanavar, S. D. Eksioglu, and S. Mason,<i> Estimating Operating Reserve
+                        Requirements
+                        using Rolling Horizon Stochastic Optimization</i>, <b>Annals of Operations Research</b>,
+                    published online,
+                    2020.
+                    <a href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2019/11/orEstimate_oo.pdf"
+                        target="_blank"> ( preprint )</a>
+                    <a href="https://link.springer.com/article/10.1007/s10479-019-03482-x" target="_blank">( online
+                        )</a>
+                </li>
+                <li>
+                    H.Gangammanavar, Y. Liu, and S. Sen,<i> Stochastic Decomposition for stochastic linear programs with
+                        Random Cost Coefficient </i>, <b>INFORMS Journal on Computing </b>, published online, 2020.
+                    <a href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2019/08/GLS_RandomCostSD_oo.pdf"
+                        target="_blank"> ( preprint )</a>
+                    <a href="https://pubsonline.informs.org/doi/10.1287/ijoc.2019.0929" target="_blank">( online
+                        )</a>
+                </li>
+                <li>
+                    Z. Azadi, H. Gangammanavar, and S. D. Eksioglu,<i> Developing Childhood Vaccine Administration and
+                        Inventory Replenishment Policies that Minimize Open Vial Wastage </i>,<b> Annals of Operations
+                        Research </b>,
+                    published online, 2020.
+                    <a href="http://www.optimization-online.org/DB_HTML/2016/08/5600.html" target="_blank"> ( preprint
+                        )</a>
+                    <a href="https://link.springer.com/article/10.1007/s10479-019-03164-8" target="_blank">( online
+                        )</a>
+                </li>
+                <li>
+                    Shasha Wang, H. Gangammanavar, S. D. Eksioglu, and S. Mason,<i> Stochastic Optimization for Energy
+                        Management in Power Systems With Multiple Microgrids</i>, in <b>IEEE Transactions on Smart Grid
+                    </b>,
+                    vol. 10,
+                    no. 1, pp. 1068-1079, Jan. 2019.
+                    <a href="https://ieeexplore.ieee.org/document/8057282" target="_blank">( online
+                        )</a>
+                </li>
+                <li>
+                    H. Gangammanavar and S. Sen, <i>Two-scale Stochastic Optimization for Controlling Distributed
+                        Storage
+                        Devices </i>, in <b> IEEE Transactions on Smart Grid </b>, 9(4), 2691-2702, July 2018.
+
+                    <a href="https://people.smu.edu/harsha/files/2017/03/TSG-00311-2016_SDLdistributedStorageControl.pdf"
+                        target="_blank"> ( preprint
+                        )</a>
+                    <a href="https://ieeexplore.ieee.org/abstract/document/7588995" target="_blank">( online
+                        )</a>
+                </li>
+                <li>
+                    H. Gangammanavar, S. Sen, and V. M. Zavala, <i>Stochastic Optimization of Sub-Hourly Economic
+                        Dispatch
+                        With Wind Energy </i>, in<b> IEEE Transactions on Power Systems </b>, 31(2), 949-959, March
+                    2016.
+                    <a href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2016/10/ToPS2016_subhourlyEconomicDispatch.pdf"
+                        target="_blank"> ( preprint
+                        )</a>
+                    <a href="https://ieeexplore.ieee.org/document/7065337/?arnumber=7065337&tag=1" target="_blank">(
+                        online
+                        )</a>
+                </li>
+                <li>
+                    R. Li, H. Gangammanavar and A. Eryilmaz, <i>Optimal Dynamic Coding and Rate-Control for Serving
+                        Deadline-Constrained Traffic over Time-Varying Channels </i>, in <b>IEEE Transactions on
+                        Information Theory </b>,
+                    58(10):6556-6571, 2012.
+
+                    <a href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2016/10/2011TransIT11-Optimal-Dynamic-Coding-and-Rate-Control-for-Serving-Deadline-Constrained-Traffic-over-Time-Varying-Channels.pdf"
+                        target="_blank"> ( preprint
+                        )</a>
+                    <a href="http://ieeexplore.ieee.org/document/6216423/?arnumber=6216423" target="_blank">(
+                        online
+                        )</a>
+                </li>
+            </ol>
+
+            </br>
+
+            <div class="divider"></div>
+
+            </br>
+            <h4>Conference Proceedings</h4>
+            </br>
+            <ol>
+                <li>
+                    Z. Azadi, H. Gangammanavar, and S. D. Eksioglu, <i>Stochastic Optimization for Vaccine Vial
+                        Replenishment</i>, in <b>Proceedings of the 2016 Industrial and Systems Engineering Research
+                        Conference
+                        (ISERC)</b>, Anaheim, CA.
+                    <a href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2016/10/ISERC2016_vaccineVialDistribution.pdf"
+                        target="_blank">( preprint )</a>
+                </li>
+                <li>
+                    H. Gangammanavar and A. Eryilmaz.<i> Dynamic Coding and Rate-Control for Serving
+                        Deadline-Constrained
+                        Traffic over Fading Channels</i>, in Proceedings of <b>IEEE International Symposium on
+                        Information Theory
+                        (ISIT) </b>Austin TX, pp. 1788–1792, 13-18 June 2010.</br>
+                    <a href="https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2016/10/ISIT10TechReport.pdf"
+                        target="_blank">( Tech. Report)</a>
+                    <a href="https://ieeexplore.ieee.org/document/5513290/?arnumber=5513290" target="_blank">(
+                        online )</a>
+                </li>
+            </ol>
+
+
+        </div>
+
+        <!-- Footer Container -->
+        <div class="footer">
+            <div class="divider"></div>
+            <div class="contact-background">
+                <div class="contact-container" id="contact-contaciner">
+                    <h3 class="title-text">Contact</h3>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="secondary-font footer-link">Mailing Address</div>
+                            <p>Department of EMIS </br>
+                                Lyle School of Engineering </br>
+                                Southern Methodist University</br>
+                                P.O. Box 750123</br>
+                                Dallas, TX 75275-0123
+                            </p>
+
+                        </div>
+                        <div class=col-md-4>
+                            <div class="secondary-font footer-link">Mailing Address</div>
+                            <p> <a href="mailto:harsha@smu.edu">harsha@smu.edu </a></p>
+                            <div class="secondary-font footer-link">Phone</div>
+                            <p>214-768-3076</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

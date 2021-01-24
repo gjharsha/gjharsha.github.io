@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Harsha Gangammanavar | Assistant Professor at SMU</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Import fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS and JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Application CSS and JS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-override.css">
+    <script src="scripts/script.js"></script>
+
+    <script>
+        function showContent(contentId) {
+            $('.course-option').removeClass('option-active');
+            $('.option' + contentId).addClass('option-active');
+            $('.course-card').removeClass('display-content');
+            $('#' + contentId).addClass('display-content');
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- Top Header Container -->
+    <div class="top-container fx-display">
+        <a href="#">Log In</a>
+    </div>
+
+    <div class="container">
+        <!-- Application Header Container-->
+        <header class="mtb30">
+            <nav class="navbar navbar-expand-sm bg-light navbar-light">
+                <a class="nav-link " href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="research.html">Research</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="teaching.html"><b>Teaching</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="miscellaneous.html">Miscellaneous</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <h1 class="secondary-font secondary-color page-title"> Teaching</h1>
+        <h3 class="footer-link title-text" style="padding-bottom: 30px;max-width: 500px;margin: auto">
+            Details of the courses that I teach at SMU and a brief about courses that I have taught in the past
+        </h3>
+
+        </br>
+        <div class="divider"></div>
+        </br>
+
+        <!-- Courses Container -->
+        <div class="mtb30">
+            <h3 class="title-text"> As instructor at Southern Methodist University</h3>
+            <div class="fx-display">
+                <div class="left-content">
+                    <div onclick="showContent('content1')"
+                        class="course-option option-active footer-link optioncontent1">
+                        <div class="footer-link"> Operations Research (UG)</div>
+                        <div>EMIS 3360</div>
+                    </div>
+                    <div onclick="showContent('content2')" class="course-option footer-link optioncontent2">
+                        <div class="footer-link"> Operations Research Models (G)</div>
+                        <div>EMIS 8360</div>
+                    </div>
+                    <div onclick="showContent('content3')" class="course-option footer-link optioncontent3">
+                        <div class="footer-link"> Linear Programming (G)</div>
+                        <div>EMIS 8371</div>
+                    </div>
+                    <div onclick="showContent('content4')" class="course-option footer-link optioncontent4">
+                        <div class="footer-link"> Stochastic Programming (G)</div>
+                        <div>EMIS 8384</div>
+                    </div>
+                </div>
+
+                <div class="right-content p30">
+                    <!-- Course EMIS 3360 -->
+                    <div class="course-card secondary-font display-content" id="content1">
+                        <div class="card-title">
+                            <h4> Operations Research (UG)</h4>
+                            <div>EMIS 3360</div>
+                        </div>
+                        <div style="padding: 20px;">
+                            <p class="small-text">Spring 2019, 2018, 2017</p>
+                            <p class="course-description">
+                                Primarily, designed for undergraduate students in their sophomore and junior years
+                                pursuing
+                                a degree in Management Science. An overview of models and optimization techniques
+                                employed
+                                in operations research and management science. Topics include linear, integer and
+                                dynamic
+                                programming with applications in resource allocation, scheduling, transportation,
+                                financial
+                                portfolio management, production planning, supply chain management, etc. An introduction
+                                to
+                                computational solution approaches will also be presented.
+                            </p>
+                            <p><b>Schedule : </b>Tuesdays and Thursdays 9:30 – 10:50 am at Caruth Hall 0379</p>
+                            <p><b>Textbook :</b> <a
+                                    href="http://highered.mheducation.com/sites/0073523453/information_center_view0/about_the_authors.html"
+                                    target="_blank">Fred Hillier and Gerald Lieberman, “Introduction to Operations
+                                    Research”, 10 edition </a></p>
+
+                            <p><b>Syllabus : </b> <a
+                                    href="https://people.smu.edu/harsha/files/2019/08/2019Spring_syllabus_emis3360.pdf"
+                                    target="_blank">PDF </a> Spring 2019</p>
+                        </div>
+                    </div>
+
+                    <!-- Course EMIS 8360 -->
+                    <div class="course-card secondary-font" id="content2">
+                        <div class="card-title">
+                            <h4> Operations Research Models (G)</h4>
+
+                            <div>EMIS 8360</div>
+                        </div>
+                        <div style="padding: 20px;">
+                            <p class="small-text">Fall 2020, 2018, 2017, 2016; Spring 2021, 2020</p>
+                            <p class="course-description">
+                                Primarily, designed for the students pursuing a Master’s degree program in the
+                                Department of Engineering Management, Information, and Systems as the first course in
+                                Operations Research. Graduate students with minimal or no exposure to Operations
+                                Research/Management Science from other fields of study can also find this course useful.
+                                The course provides an overview of operations research models and optimization
+                                techniques. It will involve an introductory level discussion of linear programming,
+                                integer programming, sequential decision problems, and decision making under
+                                uncertainty. The students will also be exposed to computational solution approaches
+                                including MS-Excel solver and AMPL.
+                            </p>
+                            <p><b>Schedule : </b>Tuesdays and Thursdays 3:30 – 4:50 pm at Caruth Hall 0183</p>
+                            <p><b>Textbook :</b> <a href="http://athenasc.com/linoptbook.html" target="_blank">Hamdy A.
+                                    Taha, Operations Research: An Introduction, Pearson, 10th edition, 2017,
+                                    ISBN-13: 9780134444017 </a></p>
+                            <p><b>Syllabus : </b> <a
+                                    href="https://people.smu.edu/harsha/files/2020/09/2020Fall_syllabus_emis8360.pdf"
+                                    target="_blank">PDF </a> fall 2020</p>
+                        </div>
+                    </div>
+
+                    <!-- Course EMIS 8371 -->
+                    <div class="course-card secondary-font" id="content3">
+                        <div class="card-title">
+                            <h4>Linear Programming (G)</h4>
+
+                            <div>EMIS 8371</div>
+                        </div>
+                        <div style="padding: 20px;">
+                            <p class="small-text">Fall 2019, 2018</p>
+                            <p class="course-description">
+                                This is the first doctoral course in the field of optimization that serves as the
+                                foundation for all subsequent courses in the broad area of mathematical programming. The
+                                course is intended for first-year Ph.D. students and advanced M.S. students who intend
+                                to pursue a doctoral degree. The course provides complete development of theoretical and
+                                computational aspects of linear programming (LP) with topics such as — linear
+                                programming formulations, simplex algorithm, optimality conditions, duality, practical
+                                computation, and applications.
+                            </p>
+                            <p><b>Schedule : </b>Tuesdays and Thursdays 3:30 – 4:50 pm at Caruth Hall 0161.</p>
+                            <p><b>Textbook :</b> <a href="" target="_blank">Dimitris Bertsimas and John N. Tsitsiklis,
+                                    Introduction to Linear Optimization, Athena Scientific, 1997, ISBN-13:
+                                    978-1-886529-19-9 (link)</a></p>
+                            <p><b>Syllabus : </b> <a
+                                    href="https://people.smu.edu/harsha/files/2019/08/2019Fall_syllabus_emis8371.pdf"
+                                    target="_blank">PDF </a> fall 2019</p>
+
+                        </div>
+                    </div>
+
+                    <!-- Course EMIS 8384 -->
+                    <div class="course-card secondary-font" id="content4">
+                        <div class="card-title">
+                            <h4>Stochastic Programming (G)</h4>
+
+                            <div>EMIS 8384</div>
+                        </div>
+                        <div style="padding: 20px;">
+                            <p class="small-text">Spring 2020, 2018</p>
+                            <p class="course-description">
+                                Stochastic programming (SP) is a systematic framework for modeling optimization problems
+                                that involve uncertain data and find optimal decisions for the same. SP draws upon tools
+                                and methods developed in many disciplines including operations research, mathematics,
+                                and statistics. In recent years SP has gained significant attention as the work-horse
+                                for problems arising in a wide variety of applications including financial planning,
+                                industrial engineering, power systems planning and operations, computer and
+                                telecommunication networks, etc. This course will introduce the main themes and methods
+                                in SP and is suitable for students with basic knowledge of linear programming,
+                                stochastic processes, and elementary analysis. In-class illustrations and a course
+                                project will involve implementations in C/C++. Homework will consist of assignments on
+                                modeling, algorithmic enhancements, and construction of proofs.
+                            </p>
+                            <p><b>Schedule : </b>Tuesdays and Thursdays 2:00 – 3:20 pm at Caruth Hall 0383.</p>
+                            <p><b>Resources :</b> </p>
+                            <ul>
+                                <li>Alexander Shapiro, Darinka Dentcheva and Andrzej Ruszczyński,<a
+                                        href="http://epubs.siam.org/doi/book/10.1137/1.9780898718751" target="_blank">
+                                        Lectures on Stochastic
+                                        Programming: Modeling and Theory</a>, MOS-SIAM Series on Optimization, second
+                                    edition,
+                                    2014, ISBN: 978-1-611973-42-6.</li>
+
+                                <li>
+                                    Stein W. Wallace and William T. Ziemba, Applications of Stochastic Programming,
+                                    MOS-SIAM Series on Optimization, 2005, ISBN: 978-0-89871-555-2.
+                                </li>
+
+                                <li>John R. Birge and François Louveaux, <a
+                                        href="https://link.springer.com/book/10.1007%2F978-1-4614-0237-4"
+                                        target="_blank"> Introduction to Stochastic Programming </a>,
+                                    Springer New York, tenth edition, 2011, ISBN: 978-1-4614-0236-7 (Online:
+                                    978-1-4614-0237-4).</li>
+                            </ul>
+
+                            <p><b>Syllabus : </b> <a
+                                    href="https://people.smu.edu/harsha/files/2019/11/2020spring_syllabus_emis8384.pdf"
+                                    target="_blank">PDF </a> (Spring 2020)</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </br>
+            <div class="divider"></div>
+
+            <div class="my-team-container p30" style="max-width: 100%;">
+                <h3 class="title-text"> Past Courses</h3>
+                <div class="footer-link title-text" style="padding-bottom: 30px;max-width: 1000px;margin: auto">I have
+                    previously taught classes as instructor in Department of Industrial and Systems Engineering at
+                    the University of Southern California (2013-2015) and as a teaching associate at Integrated Systems
+                    Engineering department at the Ohio State University. Here is a list of courses that I have taught at
+                    following places. </div>
+                <div class="student-block-left" style="max-width: 650px;margin:  30px auto; padding: 20px">
+                    <h4>Instructor, University of Southern California</h4>
+                    <ul>
+                        <li>ISE 536: Linear Programming and Extensions (G) <div class="small-text">Fall 2014</div>
+                        </li>
+                        <li>ISE 330: Introduction to Operations Research – Deterministic Modeling (UG) <div
+                                class="small-text">Spring 2015, Fall 2014, Spring 2014 and Fall 2013</div>
+                        </li>
+                        <li>ISE 310: Production I: Facilities and Logistics <div class="small-text">Spring 2015
+                            </div>
+                        </li>
+                        <li>
+                            ISE 499: Special Topics – Integrative Systems Engineering (UG)<div class="small-text">
+                                Spring
+                                2014 and Spring
+                                2014</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="student-block-left" style="max-width: 650px;margin:  30px auto;padding: 20px">
+                    <h4>Teaching Associate, Ohio State University</h4>
+                    <ul>
+                        <li>ISE 599.01: Systems Modelling (UG) <div class="small-text">Spring 2012, Fall 2011 and
+                                Spring
+                                2011</div>
+                        </li>
+                        <li>ENG 181.01: Introduction to Engineering I <div class="small-text">Winter 2010</div>
+                        </li>
+                        <li>ECE 209: Circuits and Electronics Laboratory <div class="small-text">Spring 2009 </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+
+        <div class="right-align mtb30">
+            (UG: undergraduate; G: graduate)
+        </div>
+        <!-- Footer Container -->
+        <div class="footer">
+            <div class="divider"></div>
+            <div class="contact-background">
+                <div class="contact-container" id="contact-contaciner">
+                    <h3 class="title-text">Contact</h3>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="secondary-font footer-link">Mailing Address</div>
+                            <p>Department of EMIS </br>
+                                Lyle School of Engineering </br>
+                                Southern Methodist University</br>
+                                P.O. Box 750123</br>
+                                Dallas, TX 75275-0123
+                            </p>
+
+                        </div>
+                        <div class=col-md-4>
+                            <div class="secondary-font footer-link">Mailing Address</div>
+                            <p> <a href="mailto:harsha@smu.edu">harsha@smu.edu </a></p>
+                            <div class="secondary-font footer-link">Phone</div>
+                            <p>214-768-3076</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+</body>
+
+</html>
