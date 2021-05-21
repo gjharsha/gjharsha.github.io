@@ -259,8 +259,11 @@ img {
 }
 
 .niloofar-icon {
-    background-image: url("../../assets/research.png");
-    background-position: 46%;
+    background-image: url("../../assets/niloofar.jpeg");
+}
+
+.mahsa-icon {
+    background-image: url("../../assets/niloofar.jpeg");
 }
 
 .siavash-icon {
