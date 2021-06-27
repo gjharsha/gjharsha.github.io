@@ -402,6 +402,14 @@ img {
     /* background-color: #3e8e41; */
 }
 
+.justify-text {
+    text-align: justify !important;
+}
+
+.justify-text li {
+    text-align: justify;
+}
+
 @keyframes slideDown {
     0% {
         transform: translateY(-75px);
@@ -461,7 +469,7 @@ img {
     }
 
     p {
-        text-align: center !important;
+        text-align: justify !important;
     }
 
     .student-container div {
