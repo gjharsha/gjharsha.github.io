@@ -75,7 +75,6 @@ div {
 }
 
 .contact-background {
-    /* background: url("../../assets/contact.png") no-repeat; */
     background-size: cover;
     background-position: 50%;
     /* padding-bottom: 100px; */
@@ -254,27 +253,27 @@ img {
 }
 
 .sakitha-icon {
-    background-image: url("../../assets/sakitha.jpg");
+    background-image: url("../../assets/images/sakitha.jpg");
 }
 
 .niloofar-icon {
-    background-image: url("../../assets/niloofar.jpeg");
+    background-image: url("../../assets/images/niloofar.jpeg");
 }
 
 .mahsa-icon {
-    background-image: url("../../assets/mahsa.jpg");
+    background-image: url("../../assets/images/mahsa.jpg");
 }
 
 .siavash-icon {
-    background-image: url("../../assets/siavash.jpg");
+    background-image: url("../../assets/images/siavash.jpg");
 }
 
 .david-icon {
-    background-image: url("../../assets/david.png");
+    background-image: url("../../assets/images/david.png");
 }
 
 .nahal-icon {
-    background-image: url("../../assets/nahal.jpg");
+    background-image: url("../../assets/images/nahal.jpg");
 }
 
 .href-color {
