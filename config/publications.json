@@ -96,7 +96,7 @@
         "preprintLink": "./preprints/Azadi_Gangammanavar_Eksioglu_ISERC2016.pdf"
     },
     {
-        "index": 19,
+        "index": Gangammanavar2010dynamic,
         "text": " H. Gangammanavar and A. Eryilmaz, <i>Dynamic Coding and Rate-Control for Serving Deadline-Constrained Traffic over Fading Channels</i>, in <b>Proceedings of IEEE International Symposium on Information Theory (ISIT)</b>, Austin TX, pp. 1788–1792, 13-18 June 2010.",
         "preprintLink": "./preprints/Gangammanavar_Eryilmaz_ISIT10.pdf",
         "onlineLink": "https://ieeexplore.ieee.org/document/5513290/?arnumber=5513290"
