@@ -35,13 +35,14 @@
     },
     {
         "index": 8,
-        "text": "H. Gangammanavar and S. Sen, <i>Stochastic Dynamic Linear Programming: A Sequential Sampling-based Multistage Stochastic Programming Algorithm</i>, <b>SIAM Journal on Optimization</b>, accepted for publication, 2021.",
-        "preprintLink": "./preprints/Gangammanavar_SEN_SDLP_SiOpt2021.pdf"
+        "text": "H. Gangammanavar and S. Sen, <i>Stochastic Dynamic Linear Programming: A Sequential Sampling-based Multistage Stochastic Programming Algorithm</i>, <b>SIAM Journal on Optimization</b>,  2021 31:3, 2111-2140.",
+        "preprintLink": "./preprints/Gangammanavar_SEN_SDLP_SiOpt2021.pdf",
+        "onlineLink": "https://epubs.siam.org/doi/abs/10.1137/19M1290735"
     },
     {
         "index": 9,
         "text": " S. Yin, J. Wang, and H. Gangammanavar, <i>Stochastic Market Operation for Coordinated Transmission and Distribution Systems</i>, <b>IEEE Transactions on Sustainable Energy</b>, accepted for publication, April 2021.",
-        "preprintLink": "https://ieeexplore.ieee.org/document/9416777"
+        "onlineLink": "https://ieeexplore.ieee.org/document/9416777"
     },
     {
         "index": 10,
@@ -96,7 +97,7 @@
         "preprintLink": "./preprints/Azadi_Gangammanavar_Eksioglu_ISERC2016.pdf"
     },
     {
-        "index": Gangammanavar2010dynamic,
+        "index": 19,
         "text": " H. Gangammanavar and A. Eryilmaz, <i>Dynamic Coding and Rate-Control for Serving Deadline-Constrained Traffic over Fading Channels</i>, in <b>Proceedings of IEEE International Symposium on Information Theory (ISIT)</b>, Austin TX, pp. 1788–1792, 13-18 June 2010.",
         "preprintLink": "./preprints/Gangammanavar_Eryilmaz_ISIT10.pdf",
         "onlineLink": "https://ieeexplore.ieee.org/document/5513290/?arnumber=5513290"
