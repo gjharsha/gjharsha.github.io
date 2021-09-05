@@ -201,7 +201,7 @@ $(document).ready(function () {
             if (Publications[i].onlineLink) {
                 html += ` <a href="${Publications[i].onlineLink}"target="_blank">(online)</a>`;
             }
-            $('.publication_' + Publications[i].index).append(html);
+            $('#publication_' + Publications[i].index).append(html);
         }
     });
 
