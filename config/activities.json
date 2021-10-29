@@ -1,6 +1,10 @@
 {
     "showOnMainPage": 6,
     "activities": [
+	{
+	    "text": "David Troxell receives an Honorable Mention in the <a href="https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/Undergraduate-Operations-Research-Prize">Undergraduate Operations Research Prize</a> at INFORMS 2021.",
+	    "date": "October 24, 2021"
+	}
         {
             "text": "Congratulations to Siavash Tabrizian on successfully defending his dissertation entitled \"Sampling-based algorithms for two-stage stochastic programs and applications.\"",
             "date": "September 03, 2021"
