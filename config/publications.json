@@ -11,26 +11,26 @@
     {
         "index": 17,
         "text": " H. Gangammanavar and M. Bansal, <i>Stochastic Decomposition Method for Two-Stage Distributionally Robust Optimization</i>, 2020.",
-        "preprintLink": "./preprints/Gangammanavar_Bansal_DRSD_2021.pdf"
+        "preprintLink": "./preprints/Gangammanavar_Bansal_DRSD_2020.pdf"
     },
     {
         "index": 16,
-        "text": " S. Atakan, H. Gangammanavar, and S. Sen, <i>Stochastic Hierarchical Planning for High Renewable Power Systems</i>, 2019.",
-        "preprintLink": "./preprints/Atakan_Gangammanavar_Sen_tamingDuck_2020.pdf"
-    },
-    {
-        "index": 15,
         "text": "N. Sakhavand and H. Gangammanavar, <i>Subproblem Sampling-based Stochastic Programming Method for Power Systems Planning and Operations Problems</i>, 2020.",
         "preprintLink": "./preprints/Sakhavand_Gangammanavar_stocUCED_2020.pdf"
     },
     {
+        "index": 15,
+        "text": " S. Atakan, H. Gangammanavar, and S. Sen, <i>Stochastic Hierarchical Planning for High Renewable Power Systems</i>, 2019.",
+        "preprintLink": "./preprints/Atakan_Gangammanavar_Sen_tamingDuck_2019.pdf"
+    },
+    {
         "index": 14,
-        "text": "D. Troxell, M. Ahn, and H. Gangammanavar,<i> A Cardinality Minimization Approach to Security-Constrained Economic Dispatch</i>, <b>IEEE Transactions on Power Systems</b> accepted for publication, 2021.",
+        "text": "D. Troxell, M. Ahn, and H. Gangammanavar,<i> A Cardinality Minimization Approach to Security-Constrained Economic Dispatch</i>, <b>IEEE Transactions on Power Systems</b>, accepted for publication, 2021.",
         "preprintLink": "./preprints/Troxell_Ahn_Gangammanavar_CMPbasedSCED_2021.pdf"
     },
     {
         "index": 13,
-        "text": " A. Alobaidi, M. Khodayar, A. Vafamehr, H. Gangammanavar, and M. Khodayar, <i>Security Constrained Expansion Planning of Battery Energy Storage in Distribution Network with Data Centers</i>, <b>International Journal of Electrical Power & Energy Systems</b> accepted for publication, 2021.",
+        "text": " A. Alobaidi, M. Khodayar, A. Vafamehr, H. Gangammanavar, and M. Khodayar, <i>Security Constrained Expansion Planning of Battery Energy Storage in Distribution Network with Data Centers</i>, <b>International Journal of Electrical Power & Energy Systems</b>, accepted for publication, 2021.",
         "preprintLink": "https://www.sciencedirect.com/science/article/abs/pii/S0142061521004701"
     },
     {
@@ -47,7 +47,7 @@
     {
         "index": 10,
         "text": " H.Gangammanavar, Y. Liu, and S. Sen, <i> Stochastic Decomposition for stochastic linear programs with Random Cost Coefficient</i>, <b>INFORMS Journal on Computing </b>, 33(1), 51-71, Jan 2021.",
-        "preprintLink": "./preprints/Gangammanvar_Liu_Sen_RandomCostSD_IJC2021.pdf",
+        "preprintLink": "./preprints/Gangammanavar_Liu_Sen_RandomCostSD_IJC2021.pdf",
         "onlineLink": "https://pubsonline.informs.org/doi/10.1287/ijoc.2019.0929"
     },
     {
