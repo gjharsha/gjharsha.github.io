@@ -2,6 +2,14 @@
     "showOnMainPage": 6,
     "activities": [
         {
+            "text": "Our paper on stochastic hierarchical planning for power systems with significant renewable integration has been accepted for publication in the European Journal on Opeations Research. The paper is entitled \"Towards a Sustainable Power Grid: Stochastic Hierarchical Planning for High Renewable Integration.\" This is a joint work with Dr. Semih Atakan (Amazon) and Prof. Suvrajeet Sen (USC).",
+            "date": "December 28, 2021"
+        },
+        {
+            "text": "Paper entitled \"Change Point Detection in Nonstationary Sub-Hourly Wind Time Series\" has been accepted for publication in Applied Energy. This is joint work with Sakitha Ariyarathane and Prof. Raanju Sundarajan (SMU-Statistics).",
+            "date": "December 28, 2021"
+        },
+        {
             "text": "Paper entitled \"A Cardinality Minimization Approach to Security-Constrained Economic Dispatch\" has been accepted for publication in IEEE Transactions on Power Systems. This is joint work with David Troxell and Prof. Miju Ahn.",
             "date": "November 27, 2021"
         },
