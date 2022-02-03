@@ -1,7 +1,11 @@
 [
     {
+        "index": 20,
+	"text": "D. Wood, S. \c{C}etinkaya, H. Gangammanavar, L. Weiguo, and J. Wang, On the Value of a Multistage Optimization Approach for Intensity-Modulated Radiation Therapy Planning, 2022.",
+    },
+    {
         "index": 19,
-        "text": "S. Ariyarathne, H. Gangammanavar, and R. Sundararajan <i>Change Point Detection in Nonstationary Sub-Hourly Wind Time Series</i>, <b>Applied Energy</b>, accepted for publication, 2021.",
+        "text": "S. Ariyarathne, H. Gangammanavar, and R. Sundararajan <i>Change Point Detection in Nonstationary Sub-Hourly Wind Time Series</i>, <b>Applied Energy</b>, Volume 310, 118501, 2022.",
         "preprintLink": "./preprints/Ariyarathne_Gangammanavar_Sundarajan_ChangePoint_2021.pdf"
     },
     {
