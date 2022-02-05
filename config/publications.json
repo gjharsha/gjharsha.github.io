@@ -6,7 +6,8 @@
     {
         "index": 19,
         "text": "S. Ariyarathne, H. Gangammanavar, and R. Sundararajan <i>Change Point Detection in Nonstationary Sub-Hourly Wind Time Series</i>, <b>Applied Energy</b>, Volume 310, 118501, 2022.",
-        "preprintLink": "./preprints/Ariyarathne_Gangammanavar_Sundarajan_ChangePoint_2021.pdf"
+        "preprintLink": "./preprints/Ariyarathne_Gangammanavar_Sundarajan_ChangePoint_2021.pdf",
+	"onlineLink": "https://www.sciencedirect.com/science/article/abs/pii/S0306261921017165"
     },
     {
         "index": 18,
@@ -25,17 +26,18 @@
     {
         "index": 15,
         "text": " S. Atakan, H. Gangammanavar, and S. Sen, <i>Towards a Sustainable Power Grid: Stochastic Hierarchical Planning for High Renewable Integration</i>, <b>European Journal of Operational Research</b>, accepted for publication, 2021.",
-        "preprintLink": "./preprints/Atakan_Gangammanavar_Sen_tamingDuck_2019.pdf"
+        "preprintLink": "./preprints/Atakan_Gangammanavar_Sen_tamingDuck_2019.pdf",
     },
     {
         "index": 14,
         "text": "D. Troxell, M. Ahn, and H. Gangammanavar,<i> A Cardinality Minimization Approach to Security-Constrained Economic Dispatch</i>, <b>IEEE Transactions on Power Systems</b>, accepted for publication, 2021.",
-        "preprintLink": "./preprints/Troxell_Ahn_Gangammanavar_CMPbasedSCED_2021.pdf"
+        "preprintLink": "./preprints/Troxell_Ahn_Gangammanavar_CMPbasedSCED_2021.pdf",
+	"onlineLink": "https://ieeexplore.ieee.org/abstract/document/9640607"
     },
     {
         "index": 13,
         "text": " A. Alobaidi, M. Khodayar, A. Vafamehr, H. Gangammanavar, and M. Khodayar, <i>Security Constrained Expansion Planning of Battery Energy Storage in Distribution Network with Data Centers</i>, <b>International Journal of Electrical Power & Energy Systems</b>, Volume 133, 107231, December 2021.",
-        "preprintLink": "https://www.sciencedirect.com/science/article/abs/pii/S0142061521004701"
+        "onlineLink": "https://www.sciencedirect.com/science/article/abs/pii/S0142061521004701"
     },
     {
         "index": 12,
