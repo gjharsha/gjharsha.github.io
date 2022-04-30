@@ -2,6 +2,10 @@
     "showOnMainPage": 6,
     "activities": [
         {
+            "text": "Our paper entitled \"Stochastic Decomposition Method for Two-Stage Distributionally Robust Linear Optimization\" has been accepted for publication in SIAM Journal on Optimization. This is a joint work with Prof. Manish Bansal (Virginia Tech.).",
+            "date": "April 30, 2022"
+        },
+        {
             "text": "Our paper on stochastic hierarchical planning for power systems with significant renewable integration has been accepted for publication in the European Journal on Opeations Research. The paper is entitled \"Towards a Sustainable Power Grid: Stochastic Hierarchical Planning for High Renewable Integration.\" This is a joint work with Dr. Semih Atakan (Amazon) and Prof. Suvrajeet Sen (USC).",
             "date": "December 28, 2021"
         },
