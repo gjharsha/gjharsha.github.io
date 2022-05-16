@@ -230,6 +230,14 @@ img {
     max-width: 1000px;
 }
 
+.my-old-team-container {
+    margin: auto;
+    background: #FEFED7;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1000px;
+}
+
 .student-block-left {
     border: 1px solid var(--border-color);
     padding: 10px;
