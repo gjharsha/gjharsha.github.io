@@ -30,7 +30,7 @@
     },
     {
         "index": 15,
-        "text": " S. Atakan, H. Gangammanavar, and S. Sen, <i>Towards a Sustainable Power Grid: Stochastic Hierarchical Planning for High Renewable Integration</i>, <b>European Journal of Operational Research</b>, accepted for publication, 2021.",
+        "text": " S. Atakan, H. Gangammanavar, and S. Sen, <i>Towards a Sustainable Power Grid: Stochastic Hierarchical Planning for High Renewable Integration</i>, <b>European Journal of Operational Research</b>, Volume 302, Issue 1, p. 381-391, October 2022.",
         "preprintLink": "./preprints/Atakan_Gangammanavar_Sen_tamingDuck_2019.pdf",
 	"onlineLink": "https://www.sciencedirect.com/science/article/pii/S0377221721010985"
     },
@@ -47,47 +47,46 @@
     },
     {
         "index": 12,
-        "text": "H. Gangammanavar and S. Sen, <i>Stochastic Dynamic Linear Programming: A Sequential Sampling-based Multistage Stochastic Programming Algorithm</i>, <b>SIAM Journal on Optimization</b>,  2021 31:3, 2111-2140.",
+        "text": "H. Gangammanavar and S. Sen, <i>Stochastic Dynamic Linear Programming: A Sequential Sampling-based Multistage Stochastic Programming Algorithm</i>, <b>SIAM Journal on Optimization</b>, 31:3, p. 2111-2140, 2021.",
         "preprintLink": "./preprints/Gangammanavar_SEN_SDLP_SiOpt2021.pdf",
         "onlineLink": "https://epubs.siam.org/doi/abs/10.1137/19M1290735"
     },
     {
         "index": 11,
-        "text": " S. Yin, J. Wang, and H. Gangammanavar, <i>Stochastic Market Operation for Coordinated Transmission and Distribution Systems</i>, <b>IEEE Transactions on Sustainable Energy</b>,  vol. 12, no. 4, pp. 1996-2007, October 2021.",
+        "text": " S. Yin, J. Wang, and H. Gangammanavar, <i>Stochastic Market Operation for Coordinated Transmission and Distribution Systems</i>, <b>IEEE Transactions on Sustainable Energy</b>,  vol. 12, no. 4, p. 1996-2007, October 2021.",
         "onlineLink": "https://ieeexplore.ieee.org/document/9416777"
     },
     {
         "index": 10,
-        "text": " H.Gangammanavar, Y. Liu, and S. Sen, <i> Stochastic Decomposition for stochastic linear programs with Random Cost Coefficient</i>, <b>INFORMS Journal on Computing </b>, 33(1), 51-71, Jan 2021.",
+        "text": " H.Gangammanavar, Y. Liu, and S. Sen, <i> Stochastic Decomposition for stochastic linear programs with Random Cost Coefficient</i>, <b>INFORMS Journal on Computing </b>, 33(1), p. 51-71, January 2021.",
         "preprintLink": "./preprints/Gangammanavar_Liu_Sen_RandomCostSD_IJC2021.pdf",
         "onlineLink": "https://pubsonline.informs.org/doi/10.1287/ijoc.2019.0929"
     },
     {
         "index": 9,
-        "text": " S. Wang, S. Mason, and H. Gangammanavar, <i> Stochastic Optimization for Flow-shop Scheduling with On-site Renewable Energy Generation using a case in the United States</i>, <b>Computers & Industrial Engineering</b>, 149, p.106812, 2020.",
-        "preprintLink": "https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/517/files/2019/08/GLS_RandomCostSD_oo.pdf",
-        "onlineLink": "https://pubsonline.informs.org/doi/10.1287/ijoc.2019.0929"
+        "text": " S. Wang, S. Mason, and H. Gangammanavar, <i> Stochastic Optimization for Flow-shop Scheduling with On-site Renewable Energy Generation using a case in the United States</i>, <b>Computers & Industrial Engineering</b>, 149, p.106812, November 2020.",
+        "onlineLink": "https://www.sciencedirect.com/science/article/pii/S0360835220305167"
     },
     {
         "index": 8,
-        "text": " S. Wang, H. Gangammanavar, S. D. Eksioglu, and S. Mason, <i> Estimating Operating Reserve Requirements using Rolling Horizon Stochastic Optimization</i>, <b>Annals of Operations Research</b>, 292(1), pp.371-397, 2020.",
+        "text": " S. Wang, H. Gangammanavar, S. D. Eksioglu, and S. Mason, <i> Estimating Operating Reserve Requirements using Rolling Horizon Stochastic Optimization</i>, <b>Annals of Operations Research</b>, 292, p.371-397, 2020.",
         "preprintLink": "./preprints/Wang_Gangammanavar_EtAl_OREstimate_AOR2020.pdf",
         "onlineLink": "https://link.springer.com/article/10.1007/s10479-019-03482-x"
     },
     {
         "index": 7,
-        "text": "Z. Azadi, H. Gangammanavar, and S. D. Eksioglu, <i> Developing Childhood Vaccine Administration and Inventory Replenishment Policies that Minimize Open Vial Wastage</i>, <b> Annals of Operations Research </b>, 292, pp. 215–247 (2020).",
+        "text": "Z. Azadi, H. Gangammanavar, and S. D. Eksioglu, <i> Developing Childhood Vaccine Administration and Inventory Replenishment Policies that Minimize Open Vial Wastage</i>, <b> Annals of Operations Research</b>, 292, p. 215–247, 2020.",
         "preprintLink": "./preprints/Azadi_Gangammanavar_Eksioglu_VaccineSP_AOR2020",
         "onlineLink": "https://link.springer.com/article/10.1007/s10479-019-03164-8"
     },
     {
         "index": 6,
-        "text": " S. Wang, H. Gangammanavar, S. D. Eksioglu, and S. Mason, <i> Stochastic Optimization for Energy Management in Power Systems With Multiple Microgrids</i>, <b>IEEE Transactions on Smart Grid </b>, vol. 10, no. 1, pp. 1068-1079, Jan. 2019.",
+        "text": " S. Wang, H. Gangammanavar, S. D. Eksioglu, and S. Mason, <i> Stochastic Optimization for Energy Management in Power Systems With Multiple Microgrids</i>, <b>IEEE Transactions on Smart Grid</b>, vol. 10, no. 1, p. 1068-1079, January 2019.",
         "onlineLink": "https://ieeexplore.ieee.org/document/8057282"
     },
     {
         "index": 5,
-        "text": " H. Gangammanavar and S. Sen, <i>Two-scale Stochastic Optimization for Controlling Distributed Storage Devices</i>, <b> IEEE Transactions on Smart Grid </b>, 9(4), 2691-2702, July 2018.",
+        "text": " H. Gangammanavar and S. Sen, <i>Two-scale Stochastic Optimization for Controlling Distributed Storage Devices</i>, <b> IEEE Transactions on Smart Grid</b>, 9(4), 2691-2702, July 2018.",
         "preprintLink": "./preprints/Gangammanavar_Sen_SDLPStorage_TSG2016.pdf",
         "onlineLink": "https://ieeexplore.ieee.org/abstract/document/7588995"
     },
@@ -98,19 +97,19 @@
     },
     {
         "index": 3,
-        "text": " H. Gangammanavar, S. Sen, and V. M. Zavala, <i>Stochastic Optimization of Sub-Hourly Economic Dispatch With Wind Energy </i>, <b> IEEE Transactions on Power Systems </b>, 31(2), 949-959, March 2016.",
+        "text": " H. Gangammanavar, S. Sen, and V. M. Zavala, <i>Stochastic Optimization of Sub-Hourly Economic Dispatch With Wind Energy </i>, <b> IEEE Transactions on Power Systems</b>, 31(2), p. 949-959, March 2016.",
         "preprintLink": "./preprints/Gangammanavar_Sen_Zavala_SubhourlyED_ToPS2016.pdf",
         "onlineLink": "https://ieeexplore.ieee.org/document/7065337/?arnumber=7065337&tag=1"
     },
     {
         "index": 2,
-        "text": " R. Li, H. Gangammanavar and A. Eryilmaz, <i>Optimal Dynamic Coding and Rate-Control for Serving Deadline-Constrained Traffic over Time-Varying Channels </i>, <b>IEEE Transactions on Information Theory </b>, 58(10):6556-6571, 2012.",
+        "text": " R. Li, H. Gangammanavar and A. Eryilmaz, <i>Optimal Dynamic Coding and Rate-Control for Serving Deadline-Constrained Traffic over Time-Varying Channels </i>, <b>IEEE Transactions on Information Theory </b>, 58(10):p. 6556-6571, October 2012.",
         "preprintLink": "./preprints/Li_Gangammanavar_Eryilmaz_OptimalDynamicCoding_ToIT2011.pdf",
         "onlineLink": "http://ieeexplore.ieee.org/document/6216423/?arnumber=6216423"
     },
     {
         "index": 1,
-        "text": " H. Gangammanavar and A. Eryilmaz, <i>Dynamic Coding and Rate-Control for Serving Deadline-Constrained Traffic over Fading Channels</i>, in <b>Proceedings of IEEE International Symposium on Information Theory (ISIT)</b>, Austin TX, pp. 1788–1792, 13-18 June 2010.",
+        "text": " H. Gangammanavar and A. Eryilmaz, <i>Dynamic Coding and Rate-Control for Serving Deadline-Constrained Traffic over Fading Channels</i>, in <b>Proceedings of IEEE International Symposium on Information Theory (ISIT)</b>, Austin TX, p. 1788–1792, 13-18 June 2010.",
         "preprintLink": "./preprints/Gangammanavar_Eryilmaz_ISIT10.pdf",
         "onlineLink": "https://ieeexplore.ieee.org/document/5513290/?arnumber=5513290"
     }
