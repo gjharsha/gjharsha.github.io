@@ -2,6 +2,11 @@
     "showOnMainPage": 6,
     "activities": [
         {
+            "text": "Our paper entitled \"On the value of a multistage optimization approach for intensity-modulated radiation therapy planning\" has been accepted for publication in Physics in Medicine and Biology. This word was led by Doran Wood (Ph.D. student in OREM) and is a joint work with Profs. Sila &Ccediletinkaya (OREM), Weiguo Lu (UTSW Medical Center) and Jing Wang (UTSW Medical Center).",
+            "date": "June 20, 2022"
+        },
+
+        {
             "text": "Our paper entitled \"Stochastic Decomposition Method for Two-Stage Distributionally Robust Linear Optimization\" has been accepted for publication in SIAM Journal on Optimization. This is a joint work with Prof. Manish Bansal (Virginia Tech.).",
             "date": "April 30, 2022"
         },
