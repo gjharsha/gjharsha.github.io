@@ -71,7 +71,7 @@
     <h3 class="footer-link title-text" style="margin-bottom: 50px;">
       <div class="fx-display fx-centered">
         <div class="pill">
-          <a style="color: white" href="./publications.html"> Publication </a>
+          <a style="color: white" href="./publications.html"> Publications </a>
         </div>
         <div class="pill">
           <a style="color: white" href="./software.html"> Software </a>
@@ -90,11 +90,72 @@
 	    My research interests are in various aspects of decision-making under uncertainty and their applications in large-scale data-driven settings. My approach to tackling these problems is founded in mathematical optimization, particularly stochastic programming. In my research, I regularly use tools from simulation and statistics. My research goal is to tackle different forms of stochastic optimization problems by designing solution methods that provide verifiable guarantees of solution quality and are computationally scalable. I also strongly emphasize developing effective software implementation of stochastic optimization algorithms. Interested readers can access source codes for the algorithms I helped develop from my Github profile page. I have successfully used my research to address problems in the planning and operations of power and health care systems. My research works are also available on  <a href="https://scholar.google.com/citations?user=GIoUulsAAAAJ&hl=en" target="_blank">Google    Scholar</a> and <a href="https://www.researchgate.net/profile/Harsha_Gangammanavar"
               target="_blank">ResearchGate</a>
           </p>
-
         </div>
         <div class="col-md-5">
           <img src="assets/images/research.png">
         </div>
+      </div>
+    </div>    
+
+    <h1 style="margin-top:50px;">Current Projects:</h1>
+    <div class="col-md-12">    
+      <button class="collapsible">1. Decomposition-based Stochastic Programming Models and Algorithms for Discrete-event Dynamic Systems.</button>
+      <div class="content">
+      <ul>
+        <li> <b>Funding agency:</b> Office of Naval Research</li>
+        <li>  <b>Duration:</b> 2022-2025</li>
+        <li>  <b> Role:</b> Principal Investigator</li>
+      </ul>  
+      </div>
+    </div>
+
+    <h1 style="margin-top:50px;">Past Projects:</h1>
+    <div class="col-md-12">    
+      <button class="collapsible">1. Data Assimilation for Radiation Therapy Planning via Opti-
+        mization: Adaptive Deterministic Models. </button>
+      <div class="content">
+      <ul>
+        <li> <b>Funding agency:</b> SMU Lyle School of Engineering Research Seed Funding</li>
+        <li> <b>Duration:</b> 2020</li>
+        <li> <b>Role:</b> Principal Investigator with Co-Principal Investigators Sila Cetinkaya (SMU) and Jing Wang (UT Southwestern Medical Center)</li>
+        <li> <b>Publication:</b>
+          <ol> <li><div id="publication_20" ></div></li></ol>
+        </li>
+      </ul>  
+      </div>
+      <button class="collapsible">2. Multi-temporal flexibility services in transactive energy architecture.</button>
+      <div class="content">
+      <ul>
+        <li> <b>Funding agency:</b> SMU Lyle School of Engineering Research Seed Funding</li>
+        <li> <b>Duration:</b> 2018</li>
+        <li> <b>Role:</b> Co-Principal Investigator with Principal Investigators Mohammad Khodayar (SMU)</li>
+      </ul>  
+      </div>
+      <button class="collapsible">3. Data-driven Decision Support System for Coordinated Operation of Electricity and Natural Gas Infrastructure.</button>
+      <div class="content">
+      <ul>
+        <li> <b>Funding agency:</b> SMU Lyle School of Engineering Research Seed Funding</li>
+        <li> <b>Duration:</b> 2017</li>
+        <li> <b>Role:</b> Principal Investigator with Co-Principal Investigators Mohammad Khodayar (SMU)</li>
+        <li> <b>Publication:</b>
+          <ol> <li><div id="publication_16" ></div></li></ol>
+        </li>
+      </ul>  
+      </div>
+      <button class="collapsible">4. Statistical Optimality, Algorithms, and Resilience in Time-staged Stochastic Systems.</button>
+      <div class="content">
+      <ul>
+        <li> <b>Funding agency:</b>Air Force Office of Scientific Research</li>
+        <li> <b>Duration:</b> 2015-2018</li>
+        <li> <b>Role:</b> Co-Principal Investigator with Principal Investigators Suvrajeet Sen (USC)</li>
+        <li> <b>Publications (that I co-authored):</b>
+          <ol> 
+            <li><div id="publication_12"></div></li>
+            <li><div id="publication_10"></div></li>
+            <li><div id="publication_5"></div></li>
+          </ol>
+        </li>
+      </ul>  
       </div>
     </div>
 
@@ -124,8 +185,24 @@
         </div>
       </div>
     </div>
-
   </div>
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
 
 </body>
 
