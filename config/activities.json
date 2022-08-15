@@ -1,6 +1,10 @@
 {
     "showOnMainPage": 6,
     "activities": [
+        {   
+            "text": "Received an Office of Naval Research grant to study \"Decomposition-based stochastic programming models and algorithms for discrete-event dynamic systems.\"",
+            "date": "August 15, 2022"
+        },
         {
             "text": "Our paper entitled \"On the value of a multistage optimization approach for intensity-modulated radiation therapy planning\" has been accepted for publication in Physics in Medicine and Biology. This word was led by Doran Wood (Ph.D. student in OREM) and is a joint work with Profs. Sila &Ccediletinkaya (OREM), Weiguo Lu (UTSW Medical Center) and Jing Wang (UTSW Medical Center).",
             "date": "June 20, 2022"
