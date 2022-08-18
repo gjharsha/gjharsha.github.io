@@ -6,14 +6,14 @@
     },
     {
         "index": 20,
-	"text": "D. Wood, S. Cetinkaya, H. Gangammanavar, L. Weiguo, and J. Wang, <i>On the Value of a Multistage Optimization Approach for Intensity-Modulated Radiation Therapy Planning</i>, <b>Physics in Medicine and Biology</b>, accepted for publication, 2022.",
+	"text": "D. Wood, S. &#199etinkaya, H. Gangammanavar, L. Weiguo, and J. Wang, <i>On the Value of a Multistage Optimization Approach for Intensity-Modulated Radiation Therapy Planning</i>, <b>Physics in Medicine and Biology</b>, 67(14), 2022.",
 	"onlineLink": "https://pubmed.ncbi.nlm.nih.gov/35724656/"	
     },
     {
         "index": 19,
         "text": "S. Ariyarathne, H. Gangammanavar, and R. Sundararajan <i>Change Point Detection in Nonstationary Sub-Hourly Wind Time Series</i>, <b>Applied Energy</b>, Volume 310, 118501, 2022.",
         "preprintLink": "./preprints/Ariyarathne_Gangammanavar_Sundarajan_ChangePoint_2021.pdf",
-	"onlineLink": "https://www.sciencedirect.com/science/article/abs/pii/S0306261921017165"
+	    "onlineLink": "https://www.sciencedirect.com/science/article/abs/pii/S0306261921017165"
     },
     {
         "index": 18,
@@ -21,8 +21,9 @@
     },
     {
         "index": 17,
-        "text": " H. Gangammanavar and M. Bansal, <i>Stochastic Decomposition Method for Two-Stage Distributionally Robust Linear Optimization</i>, <b>SIAM Journal on Optimization</b>, accepted for publication, 2022.",
-        "preprintLink": "./preprints/Gangammanavar_Bansal_DRSD_2020.pdf"
+        "text": " H. Gangammanavar and M. Bansal, <i>Stochastic Decomposition Method for Two-Stage Distributionally Robust Linear Optimization</i>, <b>SIAM Journal on Optimization</b>, 32:3, 1901-1930, 2022.",
+        "preprintLink": "./preprints/Gangammanavar_Bansal_DRSD_2020.pdf",
+        "onlineLink": "https://epubs.siam.org/doi/10.1137/20M1378600"
     },
     {
         "index": 16,
