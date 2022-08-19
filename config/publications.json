@@ -1,13 +1,14 @@
 [
     {
         "index": 21,
-	"text": "N. Sakhavand, V. Chen, H. Gangammanavar, and J. Rosenberger, <i>Design of Experiments for the Stochastic Unit Commitment with Economic Dispatch Models</i>, 2022.",
+	    "text": "N. Sakhavand, V. Chen, H. Gangammanavar, and J. Rosenberger, <i>Design of Experiments for the Stochastic Unit Commitment with Economic Dispatch Models</i>, 2022.",
         "preprintLink": "https://cosmos.uta.edu/wp-content/uploads/2022/06/COSMOS-22-01.pdf"
     },
     {
         "index": 20,
-	"text": "D. Wood, S. &#199etinkaya, H. Gangammanavar, L. Weiguo, and J. Wang, <i>On the Value of a Multistage Optimization Approach for Intensity-Modulated Radiation Therapy Planning</i>, <b>Physics in Medicine and Biology</b>, 67(14), 2022.",
-	"onlineLink": "https://pubmed.ncbi.nlm.nih.gov/35724656/"	
+	    "text": "D. Wood, S. &#199etinkaya, H. Gangammanavar, L. Weiguo, and J. Wang, <i>On the Value of a Multistage Optimization Approach for Intensity-Modulated Radiation Therapy Planning</i>, <b>Physics in Medicine and Biology</b>, 67(14), 2022.",
+	    "onlineLink": "https://pubmed.ncbi.nlm.nih.gov/35724656/",
+        "preprintLink":"./preprints/Wood_EtAl_MSPforRTP.pdf"	
     },
     {
         "index": 19,
@@ -34,13 +35,13 @@
         "index": 15,
         "text": " S. Atakan, H. Gangammanavar, and S. Sen, <i>Towards a Sustainable Power Grid: Stochastic Hierarchical Planning for High Renewable Integration</i>, <b>European Journal of Operational Research</b>, Volume 302, Issue 1, p. 381-391, October 2022.",
         "preprintLink": "./preprints/Atakan_Gangammanavar_Sen_tamingDuck_2019.pdf",
-	"onlineLink": "https://www.sciencedirect.com/science/article/pii/S0377221721010985"
+	    "onlineLink": "https://www.sciencedirect.com/science/article/pii/S0377221721010985"
     },
     {
         "index": 14,
         "text": "D. Troxell, M. Ahn, and H. Gangammanavar,<i> A Cardinality Minimization Approach to Security-Constrained Economic Dispatch</i>, <b>IEEE Transactions on Power Systems</b>, accepted for publication, 2021.",
         "preprintLink": "./preprints/Troxell_Ahn_Gangammanavar_CMPbasedSCED_2021.pdf",
-	"onlineLink": "https://ieeexplore.ieee.org/abstract/document/9640607"
+	    "onlineLink": "https://ieeexplore.ieee.org/abstract/document/9640607"
     },
     {
         "index": 13,
