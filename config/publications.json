@@ -1,13 +1,18 @@
 [
     {
+        "index": 22,
+	"text": "M. Ahn, H. Gangammanavar, and D. Troxell, <i>Tractable Continuous Approximations for Constraint Selection via Cardinality Minimization</i>, 2022.",
+	"preprintLink":"./preprints/Ahn_Gangammanavar_Troxell_cardinalityMin2022.pdf"
+    },
+    {
         "index": 21,
-	    "text": "N. Sakhavand, V. Chen, H. Gangammanavar, and J. Rosenberger, <i>Design of Experiments for the Stochastic Unit Commitment with Economic Dispatch Models</i>, 2022.",
+	"text": "N. Sakhavand, V. Chen, H. Gangammanavar, and J. Rosenberger, <i>Design of Experiments for the Stochastic Unit Commitment with Economic Dispatch Models</i>, 2022.",
         "preprintLink": "https://cosmos.uta.edu/wp-content/uploads/2022/06/COSMOS-22-01.pdf"
     },
     {
         "index": 20,
-	    "text": "D. Wood, S. &#199etinkaya, H. Gangammanavar, L. Weiguo, and J. Wang, <i>On the Value of a Multistage Optimization Approach for Intensity-Modulated Radiation Therapy Planning</i>, <b>Physics in Medicine and Biology</b>, 67(14), 2022.",
-	    "onlineLink": "https://pubmed.ncbi.nlm.nih.gov/35724656/",
+	"text": "D. Wood, S. &#199etinkaya, H. Gangammanavar, L. Weiguo, and J. Wang, <i>On the Value of a Multistage Optimization Approach for Intensity-Modulated Radiation Therapy Planning</i>, <b>Physics in Medicine and Biology</b>, 67(14), 2022.",
+	"onlineLink": "https://pubmed.ncbi.nlm.nih.gov/35724656/",
         "preprintLink":"./preprints/Wood_EtAl_MSPforRTP.pdf"	
     },
     {
