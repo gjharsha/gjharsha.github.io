@@ -1,10 +1,14 @@
 {
     "showOnMainPage": 6,
     "activities": [
-	{
-	    "text": "Received a Department of Energy-Office of Science grant under the ASCR program. The grant will support our research on \"New Abstractions and Randomized Algorithms for Multiscale Stochastic Optimization.\" This is joint work with the OSU, USC, and Argonne.",
-	    "date": "September 21, 2022"
-	},
+        {
+            "text": "Paper entitled \"Subproblem sampling vs. scenario reduction: Efficacy comparison for stochastic programs in power systems applications\" has been accepted for publication in Energy Systems. Former student Nahal Sakhavand is the lead author on this paper.",
+            "date": "December 22, 2022"
+        },
+	    {
+	        "text": "Received a Department of Energy-Office of Science grant under the ASCR program. The grant will support our research on \"New Abstractions and Randomized Algorithms for Multiscale Stochastic Optimization.\" This is joint work with the OSU, USC, and Argonne.",
+	        "date": "September 21, 2022"
+	    },
         {   
             "text": "Received an Office of Naval Research grant to study \"Decomposition-based stochastic programming models and algorithms for discrete-event dynamic systems.\"",
             "date": "August 15, 2022"
