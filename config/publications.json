@@ -16,8 +16,7 @@
     },
     {
         "index": 20,
-	"text": "D. Wood, S. &#199etinkaya, H. Gangammanavar, L. Weiguo, and J. Wang, <i>On the Value of a Multistage Optimization Approach for Intensity-Modulated Radiation Therapy Planning</i>, <b>Physics in Medicine and Biology</b>, 67(14), 2022.",
-	"onlineLink": "https://pubmed.ncbi.nlm.nih.gov/35724656/",
+	    "text": "D. Wood, S. &#199etinkaya, H. Gangammanavar, L. Weiguo, and J. Wang, <i>On the Value of a Multistage Optimization Approach for Intensity-Modulated Radiation Therapy Planning</i>, <b>Physics in Medicine and Biology</b>, 67(14), 2022.",
         "preprintLink":"./preprints/Wood_EtAl_MSPforRTP.pdf",
         "onlineLink":"https://link.springer.com/article/10.1007/s12667-022-00558-9"
     },
