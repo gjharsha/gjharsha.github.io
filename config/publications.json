@@ -39,7 +39,8 @@
     {
         "index": 16,
         "text": "N. Sakhavand and H. Gangammanavar, <i>Subproblem sampling vs. scenario reduction: Efficacy comparison for stochastic programs in power systems applications</i>, accepted for publication in <b>Energy Systems</b>, 2022.",
-        "preprintLink": "./preprints/Sakhavand_Gangammanavar_stocUCED_ES2022.pdf"
+        "preprintLink": "./preprints/Sakhavand_Gangammanavar_stocUCED_ES2022.pdf", 
+        "onlineLink": "https://link.springer.com/article/10.1007/s12667-022-00558-9"
     },
     {
         "index": 15,
