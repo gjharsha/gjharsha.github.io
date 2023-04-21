@@ -1,4 +1,4 @@
-body {
+icosbody {
     font-family: "Roboto", sans-serif;
     background-color: white;
 }
@@ -260,28 +260,34 @@ img {
     color: var(--secondary-color);
 }
 
-.sakitha-icon {
-    background-image: url("../../assets/images/sakitha.jpg");
+.david-icon {
+    background-image: url("../../assets/images/david.png");
 }
 
-.niloofar-icon {
-    background-image: url("../../assets/images/niloofar.jpeg");
+.emily-icon {
+    background-image: url("../../assets/images/emily.jpeg");
+    background-size: 350px;
+    background-position: right -70px top -30px;
+}
+
+.sakitha-icon {
+    background-image: url("../../assets/images/sakitha.jpg");
 }
 
 .mahsa-icon {
     background-image: url("../../assets/images/mahsa.jpg");
 }
 
-.siavash-icon {
-    background-image: url("../../assets/images/siavash.jpg");
-}
-
-.david-icon {
-    background-image: url("../../assets/images/david.png");
-}
-
 .nahal-icon {
     background-image: url("../../assets/images/nahal.jpg");
+}
+
+.niloofar-icon {
+    background-image: url("../../assets/images/niloofar.jpeg");
+}
+
+.siavash-icon {
+    background-image: url("../../assets/images/siavash.jpg");
 }
 
 .href-color {
