@@ -1,5 +1,10 @@
 [
     {
+        "index": 24,
+        "text": "S. Ariyarathne and H. Gangammanavar, <i>New Formulations and Pricing Mechanisms for Stochastic Electricity Market Clearing Problem</i>, 2023.",
+        "preprintLink":"./preprints/Ariyarathne_Gangammanavar_SPclearingProblems.pdf"
+    },
+    {
         "index": 23,
         "text": "H. Gangammanavar, <i>Sampling-based Decomposition Algorithms for Multistage Stochastic Programming</i>, to appear in <b>Encyclopedia of Optimization</b>, 2022.",
         "preprintLink":"./preprints/Gangammanavar_samplingBasedMSLP_Encyclopedia.pdf"
