@@ -539,7 +539,7 @@ img {
     }
 }
 
-.collapsible {
+.project {
     background-color: #def2fc;
     color: black;
     cursor: pointer;
@@ -553,11 +553,11 @@ img {
     margin-bottom: 20px;
   }
   
-  .active, .collapsible:hover {
+  .active, .project:hover {
     background-color: #66ccff;
   }
   
-  .content {
+  .projectDetails {
     padding: 0px 20px;
     max-height: 0;
     overflow: hidden;
