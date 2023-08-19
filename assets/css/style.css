@@ -290,6 +290,10 @@ img {
     background-image: url("../../assets/images/siavash.jpg");
 }
 
+.student-icon {
+    background-image: url("../../assets/images/portraitIcon.png");
+}
+
 .href-color {
     color: var(--href-color);
 }
