@@ -260,40 +260,6 @@ img {
     color: var(--secondary-color);
 }
 
-.david-icon {
-    background-image: url("../../assets/images/david.png");
-}
-
-.emily-icon {
-    background-image: url("../../assets/images/emily.jpeg");
-    background-size: 350px;
-    background-position: right -70px top -30px;
-}
-
-.sakitha-icon {
-    background-image: url("../../assets/images/sakitha.jpg");
-}
-
-.mahsa-icon {
-    background-image: url("../../assets/images/mahsa.jpg");
-}
-
-.nahal-icon {
-    background-image: url("../../assets/images/nahal.jpg");
-}
-
-.niloofar-icon {
-    background-image: url("../../assets/images/niloofar.jpeg");
-}
-
-.siavash-icon {
-    background-image: url("../../assets/images/siavash.jpg");
-}
-
-.student-icon {
-    background-image: url("../../assets/images/portraitIcon.png");
-}
-
 .href-color {
     color: var(--href-color);
 }
@@ -438,8 +404,6 @@ img {
     }
 }
 
-
-
 @media only screen and (max-width: 1000px) {
     .pill {
         margin-bottom: 5px;
@@ -577,4 +541,47 @@ img {
     padding: 20px; 
     width: textwidth;
   }
-  
+
+/* Student images */
+.david-icon {
+    background-image: url("../../assets/images/david.png");
+}
+
+.emily-icon {
+    background-image: url("../../assets/images/emily.jpeg");
+    background-size: 350px;
+    background-position: right -70px top -30px;
+}
+
+.harshani-icon {
+    background-image: url("../../assets/images/harshani.jpg");
+    background-size: 200px;
+    background-position: right -25px top -10px;
+}
+
+
+.mahsa-icon {
+    background-image: url("../../assets/images/mahsa.jpg");
+}
+
+.nahal-icon {
+    background-image: url("../../assets/images/nahal.jpg");
+}
+
+.niloofar-icon {
+    background-image: url("../../assets/images/niloofar.jpeg");
+}
+
+.sakitha-icon {
+    background-image: url("../../assets/images/sakitha.jpg");
+    background-size: 175px;
+    background-position: right -30px top -10px;
+}
+
+.siavash-icon {
+    background-image: url("../../assets/images/siavash.jpg");
+}
+
+.student-icon {
+    background-image: url("../../assets/images/portraitIcon.png");
+}
