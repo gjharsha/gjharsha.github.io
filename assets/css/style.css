@@ -507,6 +507,7 @@ img {
     }
 }
 
+/* Project listing and details as collapsable buttons */
 .project {
     background-color: #def2fc;
     color: black;
@@ -518,7 +519,7 @@ img {
     text-align: left;
     outline: 1px blue;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
   
   .active, .project:hover {
@@ -526,12 +527,13 @@ img {
   }
   
   .projectDetails {
-    padding: 0px 20px;
-    max-height: 0;
+    padding: 0px 18px;
+    display: none;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    border:1px solid #66ccff;
+    background-color: #def2fc;
     border-radius: 10px;
+    margin-bottom:20px;
+    transition: max-height 0.2s ease-out;
     font-size: 18px;
   }
 
