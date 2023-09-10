@@ -109,6 +109,34 @@
                 </div>
 
                 <div class="misc-card p30">
+                    <div class="blue-color ">Eclipse CDT with Gurobi</div>
+                    <div class="small-text">Technical</div>
+
+                    <div>
+                        <ul>
+                            <li>Open project settings.</li>
+
+                            <li>In [C/C++ Build] + [Settings] + [Cross GCC/C++ Compiler] + [Includes]<br>
+                                - Add <code>$GUROBI_HOME/include</code>
+                            </li>
+
+                            <li> In [C/C++ Build] + [Settings] + [Cross C++ Linker] + [Libraries]<br>
+                                 - Add in Library Search Path (-L) field <code>$GUROBI_HOME/lib</code><br>
+                                 - Add in Libraries (-l) field <code>gurobi_c++</code> and <code>gurobi(Version number)</code>.<br> 
+                                 (Example for Gurobu 10.02 the library name is <code>gurobi100</code>).                              
+                            </li>
+                            <li>
+                                If the environment variable <code>LD_LIBRARY_PATH</code> is not set, then set it <code>$GUROBI_HOME/lib</code>
+                            </li>
+                            <li>If there are "Undefined references" errors (usually encoutntered after a fresh Gurobi installation), then recompile the library using your compiler of choice. On Linux this can be done as such:<br>
+                                <code>cd /opt/gurobi1002/linux64/src/build; make; cp libgurobi_c++.a ../../lib/</code>
+                            </li>
+                        </ul>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-md-6">
+                <div class="misc-card p30">
                     <div class="blue-color">Git</div>
                     <div class="small-text">Technical</div>
                     <br>
@@ -117,8 +145,7 @@
                         </a>is my current favorite.
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6">
+
                 <div class="misc-card p30">
                     <div class="blue-color">Emacs</div>
                     <div class="small-text">Technical</div>
