@@ -82,27 +82,24 @@
 
                     <div>
                         <ul>
-                            <li>In project <code> Settings/Include </code> paths add:
-                                <code> _path_to_cplex/include/ilcplex </code> and any folder which holds source files.
-                            </li>
+                            <li>Open project settings.</li>
 
-                            <li>In project <code> Settings/Include </code> Libraries (-l) add:
-                                <code> ilocplex </code> and <i>cplex libraries. </i>
+                            <li>In [C/C++ Build] + [Settings] + [Cross GCC/C++ Compiler] + [Includes],<br>
+                                - Add <code>$CPLEX_HOME/include</code>.<br>
+                                - Add necessary source folders that contain header files.
                             </li>
+                            
+                            <li> In [C/C++ Build] + [Settings] + [Cross C++ Linker] + [Libraries],<br>
+                                - Add in Library Search Path (-L) field <code>$CPLEX_HOME/lib/x86-64_linux/static_pic/</code><br>
+                                - Add in Libraries (-l) field <code>ilocplex</code>.
+                           </li>
 
-                            <li>In project <code> Settings/Include </code> Libraries (-l) add:
-                                <code> ilocplex </code> and <i>cplex libraries. </i>
-                            </li>
-
-                            <li>
-                                In project <code> Settings/Include  Library search path (-L) </code> add:
-                                <code>_path_to_cplex/lib/platform_you_use/ </code>(for example, on linux it
-                                is<code>_path_to_cplex/x86-64_linux/static_pic</code>
-                            </li>
+                           <li> In [C/C++ Build] + [Paths and Symbols] + [Source Location (tab)], link folders that contain source files.
+                           </li>
 
                             <li>
-                                (Optional) In project <code>Settings/Miscellaneous</code> Other flags append <code>-fPIC
-                                -fexceptions -m64</code>
+                                (Optional) In [C/C++ Build] + [Settings] + [Cross GCC Compiler] + [Miscellaneous], append <code>-fPIC
+                                -fexceptions -m64</code>.
                             </li>
                         </ul>
                     </div>
@@ -117,7 +114,7 @@
                             <li>Open project settings.</li>
 
                             <li>In [C/C++ Build] + [Settings] + [Cross GCC/C++ Compiler] + [Includes]<br>
-                                - Add <code>$GUROBI_HOME/include</code>
+                                - Add <code>$GUROBI_HOME/include</code>.
                             </li>
 
                             <li> In [C/C++ Build] + [Settings] + [Cross C++ Linker] + [Libraries]<br>
@@ -126,10 +123,10 @@
                                  (Example for Gurobu 10.02 the library name is <code>gurobi100</code>).                              
                             </li>
                             <li>
-                                If the environment variable <code>LD_LIBRARY_PATH</code> is not set, then set it <code>$GUROBI_HOME/lib</code>
+                                If the environment variable <code>LD_LIBRARY_PATH</code> is not set, then set it <code>$GUROBI_HOME/lib</code>.
                             </li>
                             <li>If there are "Undefined references" errors (usually encoutntered after a fresh Gurobi installation), then recompile the library using your compiler of choice. On Linux this can be done as such:<br>
-                                <code>cd /opt/gurobi1002/linux64/src/build; make; cp libgurobi_c++.a ../../lib/</code>
+                                <code>cd /opt/gurobi1002/linux64/src/build; make; cp libgurobi_c++.a ../../lib/</code>.
                             </li>
                         </ul>
                     </div>
