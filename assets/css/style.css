@@ -549,6 +549,10 @@ img {
     background-image: url("../../assets/images/david.png");
 }
 
+.jackson-icon {
+    background-image: url("../../assets/images/jackson.jpg");
+}
+
 .emily-icon {
     background-image: url("../../assets/images/emily.jpeg");
     background-size: 350px;
