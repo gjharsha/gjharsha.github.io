@@ -1,5 +1,10 @@
 [
     {
+        "index": 25,
+        "text": "D. Cole, H. Gangammanavar, and V. M. Zavala, <i>Hierarchical Graph Modeling for Multi-Scale Optimization of Power Systems</i>, 2023.",
+        "preprintLink":"https://arxiv.org/pdf/2309.10568.pdf"
+    },
+    {
         "index": 24,
         "text": "S. Ariyarathne and H. Gangammanavar, <i>New Formulations and Pricing Mechanisms for Stochastic Electricity Market Clearing Problem</i>, 2023.",
         "preprintLink":"./papers_preprints/Ariyarathne_Gangammanavar_SPclearingProblems_2023.pdf"
