@@ -2,7 +2,7 @@
     "showOnMainPage": 6,
     "activities": [
         {
-            "text": "Starting a new position as Associate Professor of Operations Research and Engineering Management at Southern Methodist University.",
+            "text": "I am starting a new position as Associate Professor of Operations Research and Engineering Management at Southern Methodist University.",
             "date": "September 01, 2023"
         },
         {
@@ -12,6 +12,10 @@
         {
             "text": "My Ph.D. student, Niloofar Fadavi, successfully defended her Ph.D. dissertation proposal and has been admitted to candidacy.",
             "date": "May 26, 2023"
+        },
+        {
+            "text": "Niloofar Fadavi is one of the winners in the Graduate Poster Session at SMU Research and Innovation week for her poster on \"An Active-set Method for Two-stage Stochastic Quadratic Programming\"",
+            "date": "March 25, 2023"
         },
         {
             "text": "A new expository chapter entitled \"Sampling-based Decomposition Algorithms for Multistage Stochastic Programming,\" will be included in the Encyclopedia of Optimization.",
