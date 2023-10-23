@@ -1,0 +1,424 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\let\latexnofiles\nofiles
+\let\nofiles\relax
+\documentclass[hyperref, margin]{myResume} 
+
+% the margin option causes section titles to appear to the left of body text 
+\textwidth=5.3in % increase textwidth to get smaller right margin
+\newsectionwidth{1.1in}
+
+%\addtolength{\oddsidemargin}{-0.45in}
+%\addtolength{\voffset}{-0.30in}
+%\addtolength{\textwidth}{1.00in} \addtolength{\textheight}{1.50in}
+
+\usepackage{fancyhdr, amsmath, graphicx, hyperref, multirow}
+\usepackage[symbol]{footmisc}
+
+\hypersetup{colorlinks=true}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}
+\rfoot{Gangammanavar (\today)}
+\cfoot{} \lfoot{\thepage}
+
+\newcommand{\fancyfootnotetext}[2]{%
+  \fancypagestyle{dingens}{%
+    \fancyfoot[LO,RE]{\parbox{12cm}{\footnotemark[#1]\footnotesize #2}}%
+  }%
+  \thispagestyle{dingens}%
+}
+
+\newif\ifpublic
+\publictrue
+
+\begin{document} 
+
+\name{Harsha Gangammanavar\\[12pt]} % the \\[12pt] adds a blank line after name
+
+\address{3145 Dyer Street, Suite 337, Dallas, TX 75275\\Website: \url{gjharsha.github.io}}
+\address{Email: \href{mailto:harsha@smu.edu}{harsha@smu.edu} \\ Phone: (214)-768-3076}
+ 
+\begin{resume} 
+
+\section{Education}
+\textbf{Ohio State University \hfill Columbus, OH} \\
+Ph.D. Integrated Systems Engineering, \hfill August 2013\\
+\textit{Dissertation Title:} Multiple Timescale Stochastic Optimization with Application to Integrating Renewable Resources in Power Systems\\
+\textit{Advisor:} Prof. Suvrajeet Sen \\
+\textit{Minors:} Computer Science and Statistics\\
+\\
+M.S. Electrical and Computer Engineering \hfill December 2009 \\
+\\
+\textbf{Visvesvaraya Technological University \hfill Bangalore, India}\\
+B.E. Electronics and Communications Engineering \hfill May 2007
+
+\section{Appointments}
+\textbf{Southern Methodist University \hfill Dallas, TX} \\
+Operations Research and Engineering Management\\
+\textit{Associate Professor} \hfill 2023 - present\\
+\textit{Assistant Professor} \hfill 2016 - 2023\\
+\\
+\textbf{Clemson University \hfill Clemson, SC} \\
+Industrial Engineering \\
+\textit{Postdoctoral Fellow} \hfill 2015 - 2016 \\
+(\emph{Advisors}: Prof. Scott Mason and Sandra Eksioglu) \\
+\textit{Adjunct Assistant Professor} \hfill 2017 - 2021 \\
+\\
+\textbf{University of Southern California \hfill Los Angeles, CA} \\
+Industrial and Systems Engineering \\
+\textit{Visiting Assistant Professor} \hfill 2013 - 2015 \\
+\\
+\textbf{Ohio State University \hfill Columbus, OH} \\
+Integrated Systems Engineering \\
+\textit{Graduate Research and Teaching Assistant} \hfill 2010 - 2013 \\
+
+\section{Research \\Interests}
+	\textit{Methodologies}: Operations research; stochastic programming; large-scale optimization. \\
+	\textit{Applications}: Renewable energy integration in power systems; healthcare logistics; communication networks.
+
+\footnotetext[1]{Graduate student advisee}
+\footnotetext[2]{Undergraduate student advisee}
+\footnotetext[3]{Ph.D. student coauthor/mentee}
+
+\section{Journal Publications}
+
+\begin{enumerate}[label=J\arabic*., leftmargin=*]
+	\item Sakhavand, N. and Gangammanavar, H. (2022). Subproblem sampling vs. scenario reduction: efficacy comparison for stochastic programs in power systems applications, \textit{Energy Systems}, 1-29; (\href{https://doi.org/10.1007/s12667-022-00558-9}{DOI}).
+
+	\item H.\ Gangammanavar and M.\ Bansal, Stochastic Decomposition Method for Two-Stage Distributionally Robust Linear Optimization, \textit{SIAM Journal on Optimization}, vol. 32, issue 3, pp. 1901-1930, 2022; (\href{https://doi.org/10.1137/20M1378600}{DOI}).
+	
+	\item D.\ Wood\footnotemark[3], S.\ \c{C}etinkaya, H.\ Gangammanavar, L.\ Weiguo, and J.\ Wang, On the Value of a Multistage Optimization Approach for Intensity-Modulated Radiation Therapy Planning, \textit{Physics in Medicine and Biology}, vol. 67, no. 14, July 2022; (\href{https://doi.org/10.1088/1361-6560/ac7a8a}{DOI}).
+
+	\item S.\ Ariyarathne\footnotemark[1], H.\ Gangammanavar, and R.\ Sundararajan, Change Point Detection in Nonstationary Sub-Hourly Wind Time Series, \textit{Applied Energy}, vol. 310, 118501, March 2022; (\href{https://doi.org/10.1016/j.apenergy.2021.118501}{DOI}).
+	
+	\item S.\ Atakan, H.\ Gangammanavar, and S.\ Sen, Stochastic Hierarchical Planning for High Renewable Power Systems, \textit{European Journal on Operational Research}, vol. 302, issue 1, pp. 381-391, October 2022; (\href{https://doi.org/10.1016/j.ejor.2021.12.042}{DOI}).
+	
+	\item D.\ Troxell\footnotemark[2], H.\ Ahn, and H.\ Gangammanavar, A Cardinality Minimization Approach to Security-Constrained Economic Dispatch, \textit{IEEE Transactions on Power Systems}, vol. 37, no. 5, pp. 3642-3652, September 2022; (\href{https://doi.org/10.1109/TPWRS.2021.3133379}{DOI}).
+
+	\item A.\ Alobaidi\footnotemark[3], M.\ Khodayar, A.\ Vafamehr, H.\ Gangammanavar, and M.\ Khodayar, Security Constrained Expansion Planning of Battery Energy Storage in Distribution Network with Data Centers, in \textit{International Journal of Electrical Power and Energy Systems}, vol. 133, 107231, December 2021; (\href{https://doi.org/10.1016/j.ijepes.2021.107231}{DOI}).
+
+	\item H.\ Gangammanavar and S.\ Sen, Stochastic Dynamic Linear Program: A Distribution-free Multistage Stochastic Programming Algorithm, \textit{SIAM Journal on Optimization}, vol. 31, issue 3, pp. 2111-2140, 2021; (\href{https://doi.org/10.1137/19M1290735}{DOI}).
+
+	\item S.\ Yin\footnotemark[3], J.\ Wang, and H.\ Gangammanavar, Stochastic Market Operation for Coordinated Transmission and Distribution Systems, in \textit{IEEE Transactions on Sustainable Energy}, vol. 12, no. 4, pp. 1996-2007, October 2021; (\href{https://doi.org/10.1109/TSTE.2021.3076037}{DOI}).
+
+	\item H.\ Gangammanavar, Y.\ Liu, and S.\ Sen, Stochastic decomposition for two-stage stochastic linear programs with random cost coefficients, \textit{INFORMS Journal on Computing}, vol. 33, no. 1, pp 51–71, January 2021; (\href{https://doi.org/10.1287/ijoc.2019.0929}{DOI}).
+
+	\item S.\ Wang\footnotemark[3], S.\ J.\ Mason, and H.\ Gangammanavar, Stochastic optimization for flow-shop scheduling with on-site renewable energy generation using a case in the United States, \textit{Computers and Industrial Engineering}, vol. 149, 106812, November 2020; (\href{https://doi.org/10.1016/j.cie.2020.106812}{DOI}).
+
+	\item S.\ Wang\footnotemark[3], H.\ Gangammanavar, S.\ Ek{\c{s}}io{\u{g}}lu, and S.\ J.\ Mason, Statistical estimation of operating reserve requirements using rolling horizon stochastic optimization, \textit{Annals of Operations Research}, vol. 292, issue 1, pp. 371–397, 2020; (\href{https://doi.org/10.1007/s10479-019-03482-x}{DOI}).
+
+	\item Z.\ Azadi\footnotemark[3], H.\ Gangammanavar, and S.\ Ek{\c{s}}io{\u{g}}lu, Developing childhood vaccine administration and inventory replenishment policies that minimize open vial wastage. \textit{Annals of Operations Research}, vol. 292, issue 1, pp. 215–247, 2020; (\href{https://doi.org/10.1007/s10479-019-03164-8}{DOI}).
+
+	\item S.\ Wang\footnotemark[3], H.\ Gangammanavar, S.\ D.\ Ek{\c{s}}io{\u{g}}lu, and S.\ J.\ Mason, Stochastic Optimization for Energy Management in Power Systems With Multiple Microgrids, in {\it IEEE Transactions on Smart Grid}, vol. 10, no. 1, pp. 1068-1079, Jan. 2019; (\href{https://doi.org/10.1109/TSG.2017.2759159}{DOI}).
+
+	\item H.\ Gangammanavar and S.\ Sen, Two-scale Stochastic Optimization for Controlling Distributed Storage Devices, in \textit{IEEE Transactions on Smart Grid}, vol. 9, no. 4, pp. 2691-2702, July 2018; (\href{https://doi.org/10.1109/TSG.2016.2616881}{DOI}).
+
+	\item H.\ Gangammanavar, S.\ Sen, and V.\ M.\ Zavala, Stochastic Optimization of Sub-Hourly Economic Dispatch With Wind Energy, in \textit{IEEE Transactions on Power Systems}, vol. 31, no. 2, pp. 949-959, March 2016; (\href{https://doi.org/10.1109/TPWRS.2015.2410301}{DOI}).
+	
+	\item R.\ Li, H.\ Gangammanavar, and A.\ Eryilmaz, Optimal Dynamic Coding and Rate-Control for Serving Deadline-Constrained Traffic over Time-Varying Channels, in \textit{IEEE Transactions on Information Theory}, vol. 58, no. 10, pp. 6556-6571, 2012; (\href{https://doi.org/10.1109/TIT.2012.2204031}{DOI}).
+\end{enumerate}
+
+\section{Conference Proceedings}
+\begin{enumerate}[label=C\arabic*., leftmargin=*]
+	\item  Z.\ Azadi\footnotemark[3], H.\ Gangammanavar, and S.\ D.\ Ek{\c{s}}io{\u{g}}lu, Stochastic Optimization for Vaccine Vial Replenishment, in \textit{Proceedings of the 2016 Industrial and Systems Engineering Research Conference (ISERC)}, Anaheim, CA.
+	\item H.\ Gangammanavar and A.\ Eryilmaz, Dynamic Coding and Rate-Control for Serving Deadline-Constrained Traffic over Fading Channels, in \textit{Proceedings of IEEE International Symposium on Information Theory (ISIT)} Austin TX, pp. 1788--1792, 13-18 June 2010.
+\end{enumerate}
+
+\section{Under\\Review}
+\begin{enumerate}[label=R\arabic*., leftmargin=*] 
+	\item D. L. Cole, H. Gangammanavar, and V. M. Zavala, Hierarchical Graph Modeling for Multi-Scale Optimization of Power Systems, \ifpublic 2023 (first review). \else under first review at Power Systems Computation Conference (first submission 09/2023).\fi
+	\item S. Ariyarathne\footnotemark[1] and H. Gangammanavar, New Formulations and Pricing Mechanisms for Stochastic Electricity Market Clearing Problem, \ifpublic 2023 (first review). \else under first review at Operations Research (first submission 05/2023).\fi
+	\item M.\ Ahn, H.\ Gangammanavar, and D.\ Troxell\footnotemark[3], Tractable Continuous Approximations for Constraint Selection via Cardinality Minimization, \ifpublic 2022 (under second review). \else under first revision for publication in \textit{SIAM Journal on Optimization} (first submission: 10/2022).\fi
+	\item N.\ Sakhavand\footnotemark[3], J.\ Rosenberger, V.\ Chen, and H.\ Gangammanavar, Design of Experiments for the Stochastic Unit Commitment with Economic Dispatch Models, \ifpublic 2022 (under second revision). \else under second revision for publication in \textit{European Journal on Computational Optimization} (first submission: 06/2022). \fi 
+	\item S.\ Tabrizian\footnotemark[1], H.\ Gangammanavar, and H.\ \"{U}ster, An Adaptive Cluster Sampling-based Solution Method for Two-stage Stochastic Linear Programs, \ifpublic 2020. \else under first revision for publication in \textit{INFORMS Journal on Optimization} (first submission: 11/2020). \fi
+\end{enumerate}
+
+ \section{Working Papers}
+\begin{enumerate}[label=W\arabic*., leftmargin=*]
+	\item N. Fadavi\footnotemark[1] and H. Gangammanavar, An Active-set Method for Two-stage Stochastic Quadratic Programming, 2023.
+	\item S. Ariyarathne\footnotemark[1], H. Gangammanavar, and J. Wang, Multiagent Optimization for Coordinated Transmission-distribution System, 2023.
+	\item K. Baker and H. Gangammanavar, Relationship of Locational Marginal Prices to Network Properties and its Implications, 2023.	
+	\item Z. Hoobakht, H. Gangammanavar, and D.\ Rajan, Optimal Spectral Allocation in Citizens Broadband Radio Service, 2023.
+%	\item S.\ Tabrizian\footnotemark[2], H.\ Gangammanavar, and H.\ \"{U}ster, A Sampling-based Method for Stochastic Mixed-Integer Programming with Application in Portfolio Optimization, 2022 (target  \textit{Computational Management Science}).
+%	\item M.\ Bansal and H.\ Gangammanavar, Randomized Dual Decomposition for Stochastic Mixed-integer Programming, 2022 (target \textit{Operations Research Letters}).
+%	\item H.\ Gangammanavar and S.\ Sen, Data-driven policies for multistage stochastic programs and applications in power systems (target \emph{Operations Research}, invited).
+	% \item H.\ Gangammanavar, Regularized Internal Sampling Algorithm for Two-stage Stochastic Linear Programs (target \textit{Mathematical Programming}). 
+%	\item H.\ Gangammanavar, A Sampling-based Algorithm for Two-Stage Stochastic Nash Games (target \textit{Mathematical Programming}).	
+\end{enumerate}
+
+\section{Grants\\(External)}
+\begin{enumerate}[label=G\arabic*., leftmargin=*]
+	\item \emph{New Abstractions and Randomized Algorithms for Multiscale Stochastic Optimization}; Role: Lead PI; Department of Energy - Office of Science; \#DE-SC0023361; Total award amount: \$2,040,256; October 2022 - September 2025.\ifpublic \else \\
+	(The total award amount includes \$1.504,256 to SMU (SMU share of \$532,151 and subcontracts to the Ohio State University and University of Southern California) and \$500,000 to Argonne National Laboratories.) \fi
+	\item \emph{Stochastic Programming Decomposition Models and Algorithms for Discrete-event Dynamic Systems}; Role: Sole PI; Office of Naval Research \#N00014-22-1-2603; \$387,826; September 2022-August 2025.
+	\item \emph{Statistical Optimality, Algorithms and Resilience in Time-Staged Stochastic Systems}; Role: Co-PI (with S.\ Sen, PI); Air Force Office of Scientific Research \#FA9550-15-1-0267; \$450,000; August 2015 - December 2018.
+\end{enumerate}
+
+\section{Grants\\(Internal)}
+\begin{enumerate}[label=G\arabic*., leftmargin=*] \setcounter{enumi}{3}
+	\item \emph{Data-driven Multistage Decision Policies: Integration of Optimization and Statistical Learning}; Role: PI; SMU Provost's Science and Engineering Postdoctoral Bridge Grant; Award amount: \$70,000; January 2024 - January 2025.
+	\item \emph{Data Assimilation for Radiation Therapy Planning via Optimization: Adaptive Deterministic Models}; Role: PI (with S.\ \c{C}etinkaya); SMU Lyle School Research Seed Funding; \$30,500.00; March - December 2020.
+	\item \emph{Multi-temporal Flexibility Services in Transactive Energy Architecture}; Role: Co-PI (with M.\ Khodayar, PI); SMU Lyle School Research Seed Funding; \$23,760.00; March - December 2018.
+	\item \emph{A Data-Driven Support System for Coordinated Operation of Electricity and Natural Gas Infrastructure}; Role: PI (with M.\ Khodayar); SMU Lyle School Research Seed Funding; \$25,080.00; March - December 2017.
+\end{enumerate}
+
+
+\section{Honors} 
+\begin{itemize}[leftmargin=17pt]
+	\item Honorable mention at Undergraduate Operations Research Prize (for UG student D.\ Troxell; joint work with M.\ Ahn), INFORMS Annual Meeting, Anaheim, Oct. 2021;
+	\item Fellow of the Dedman College Interdisciplinary Institute 2017-18, Southern Methodist University;
+	\item Honorable mention at Minority Issues Forum poster competition (for Z.\ Azadi\footnotemark[1]; joint work with S.\ Eksioglu), INFORMS Annual Meeting, Nashville, Nov. 2016;
+	\item Postdoctoral Fellowship, Clemson University, 2015-16;
+	\item Travel grant recipient, PhD Winter School on Managing Uncertainty in Energy Infrastructure Investment, Oppdal, Norway, 2011;
+	\item Travel grant recipient, llinois Wireless Summer School, University of Illinois at Urbana-Champaign 2009.
+\end{itemize}
+
+\section{Courses\\Taught}
+	
+	At Southern Methodist University.
+	\ifpublic
+	\begin{itemize}
+		\item OREM 3360 Operations Research (UG): Spring 2017 (26), 2018 (20), 2019 (24), 2022 (19), 2023 (7); Fall 2021 (25), 2022 (13);
+		\item OREM 5364 Advanced Operations Research (UG): Fall 2022 (10), Fall 2023 (5);
+		\item OREM 8360 Operations Research Models (G): Fall 2016 (26), 2017 (13), 2018 (15), 2020 (4); Spring 2020 (10), 2021 (2);
+		\item OREM 8371 Linear Programming (G): Fall 2018 (6), 2019 (9); Spring 2022 (10);
+		\item OREM 8384 Stochastic Programming (G): Spring 2018 (13), 2020 (6).
+	\end{itemize}
+	\else 	
+	\begin{center}
+		\renewcommand{\arraystretch}{1.3}
+		\centering \begin{tabular}{|p{0.4\columnwidth}|c|c|}
+		\hline 
+		Course & Term & Evaluation (max. 5) 	\\ \hline
+		OREM 3360: 									& Spring 2017 	& 3.69 \\ \cline{2-3}
+		Operations Research (UG)					& Spring 2018 	& 4.43 \\ \cline{2-3}
+													& Spring 2019 	& 3.78 \\ \cline{2-3} 
+													& Fall 2021		& 4.42 \\ \cline{2-3}
+													& Spring 2022	& 4.65 \\ \hline
+		OREM 8360: 									& Fall 2016 	& 4.02 \\ \cline{2-3}
+		Operations Research Models (G)				& Fall 2017 	& 4.15 \\ \cline{2-3}
+													& Fall 2018 	& 4.42 \\ \cline{2-3}
+													& Spring 2020 	& 4.68 \\ \cline{2-3}
+													& Fall 2020 	& 4.67 \\ \cline{2-3}
+													& Spring 2021 	& - \\ \hline
+		OREM 8371: 									& Fall 2018 	& 4.67 \\ \cline{2-3}
+		Linear Programming (G)						& Fall 2019 	& 4.83 \\ \cline{2-3}
+													& Spring 2022 	& 4.64 \\ \hline
+		OREM 8384:									& Spring 2018 	& 4.50 \\ \cline{2-3}
+		Stochastic Programming (G)					& Spring 2018 	& 4.96 \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	A sample of student comments from course evaluations:
+	\begin{itemize}[leftmargin=*]
+		\item \emph{``There is no doubt that the professor is very knowledge in the field. His best quality is that he understands the importance of the "why" behind every problem. He really stresses on the importance of applying what we learn to the real world. He uses problems that we can relate to in our fields.''} (Fall 2016)
+		\item \emph{`` Dr. Gangammanavar is extremely responsive and helpful with students. He is very patient and listens to students and values them alot. He’s always available to answer my questions. I learned alot in this course. He makes sure students understand all the materials before moving on to the next subject.''} (Spring 2018)
+		\item \emph{`` I enjoy taking this class with Professor Harsha. I love the way he shows in the class. He always tell us the definitions and what does the materials exactly means first, and give us examples to provide what he told and help us to understand what he told. And he always post the notes on Canvas just in case we need them to review or anything unclear during the class. Professor Harsha is really awesome professor and he knows exactly what he would like to show and really helpful after class too.''} (Fall 2018)
+		\item \emph{`` It is easy to tell that this is a topic Dr. Harsha is passionate about and has strong interests in. He incorporates that with his teaching and it makes this class one to look forward to every week''.} (Spring 2020)
+		\item \emph{`` Very challenging homework that was not always the most comfortable to work with. However, I think it helped us get out of our comfort zones and really push ourselves to understand class topics''.} (Spring 2022)
+	\end{itemize}
+	\fi
+	At University of Southern California
+	\vspace{0.2cm}
+	\begin{itemize}
+		\item ISE 310 Facilities and Logistics (UG): Spring 2015;
+		\item ISE 330 Introduction to Operations Research: Deterministic Models (UG): Spring 2015, 2014; Fall 2014, 2013;
+		\item ISE 499 Special Topics: Integrative Systems Engineering (UG): Spring 2015, 2014;
+		\item ISE 536 Linear Programming and Extensions (G): Fall 2014.
+	\end{itemize}
+
+\section{Ph.D. \\Supervision}
+	\begin{itemize}[leftmargin=*]
+		\item Jackson Forner, Ph.D. Student in Operations Research;\\
+		2023 - present; OREM, SMU (co-advised with Prof. Miju Ahn)
+
+		\item Niloofar Fadavi, PhD Student in Operations Research; \\
+		Center for Research Computing Fellow; \\
+		\emph{Admission to candidacy}: Spring 2023;
+		\emph{Expected graduation}: Spring 2024.
+		
+		\item Sakitha Ariyarathne, Ph.D. in Operations Research, SMU;\\
+		\emph{Graduated}: December 2022\\
+		\emph{Dissertation title}: Study of Stochastic Market Clearing Problem in Power Systems With High Renewable Integration;\\
+		\emph{First position}: Data Scientist, BHG Financial.
+
+		\item Siavash Tabrizian. Ph.D. in Operations Research \\
+		University Ph.D. Fellow;\\
+		\emph{Graduated}: December 2021 (co-advised with Prof.\ Halit Uster);\\
+		\emph{Dissertation title}: Sampling-based Algorithms for Two-stage Stochastic Programs and Applications;\\
+		\emph{First position}: Data Scientist at USX Variant, Atlanta, GA.
+	\end{itemize}
+
+	\vspace{-0.2cm}
+\section{Masters \\Supervision}
+	\begin{itemize}[leftmargin=*]\itemsep0em
+		\item Nahal Sakhavand, M.S. in Operations Research\\		
+		\emph{Graduated}: Summer 2018;\\ 
+		\emph{First position}: Ph.D. student in ISME, University of Texas at Arlington.
+	\end{itemize}
+	\vspace{-0.2cm}	
+	
+\section{Undergraduate \\Mentoring}
+	\begin{itemize}[leftmargin=*]\itemsep0em
+		\item David Troxell, B.S. in Management Science\\		
+		\emph{Graduated}: Spring 2021;\\
+		\emph{First position}: M.S. student in Data Science, Stanford University.
+	\end{itemize}
+	
+\section{Graduate Committee Service}
+	\vspace*{0.5cm}
+	\begin{table}[h!] \renewcommand{\arraystretch}{1.3}
+		\begin{tabular}{p{0.25\textwidth} p{0.7\textwidth}}
+			\hline
+			Program & Students \\ 
+			\hline
+			Ph.D. (OREM/EMIS) 	& Ongoing: Toby Huskinson; \\[3pt] 
+								& Completed: Chengyu Ke(2023) Hedieh Ashrafi (2021); Justin B. Brown (2021); Naderehsadat Mansouri (2019); Amin Ziaeifar (2019). \\[3pt] \hline
+			Ph.D. (ECE)  		& Ongoing: Abdulraheem Alobaidi, Yazeed Alkhrijah, Bin Huang, Yanling Lin, You Lin, Xinyun Lu, Tao Wu; \\ [3pt]
+								& Completed: Shengfei Yin (2021); Mahdi Khodayar (2020); Xinan Wang (2020); Ying Zhang (2020). \\ [3pt]\hline
+			Praxis (OREM/EMIS)	& Emily McIntosh (2022); Mohammed Abdul Qaudeer (2020); Peng Yang (2019). \\ [3pt]\hline
+			Ph.D. (UTA IMSE)	& Nahal Sakhavand (2021). \\ [3pt] \hline
+			Ph.D. (Clemson IE)	& Shasha Wang (2020); Site Wang (2018). \\ [3pt]\hline
+		\end{tabular}
+	\end{table}
+	
+\sloppy
+\section{Professional Society\\Service}
+	\begin{itemize}[leftmargin=*]
+		\item Board member, INFORMS Computing Society, 2023-present. 
+		\item {\it Organization Committee Member}: 
+		\begin{itemize}
+			\item Organizing committee member and co-chair of contributed sessions tracks at INFORMS Annual Meeting 2023;
+			\item Program committee member (Energy Systems Track) at IISE Annual Conference and Expo 2022;
+			\item NSF Operations Engineering Workshop, SMU, March 2019.
+		\end{itemize}
+		\item \textit{Conference Session Chair}: 
+		\begin{itemize}
+			\item INFORMS Annual Meetings 2023(Phoenix), 2022 (Indianopolis), 2021 (Anaheim), 2019 (Seattle), 2018 (Phoenix), 2014 (San Francisco). 
+		\end{itemize}
+		\item \textit{Referee}: INFORMS Operations Research, Journal on Computing, and Journal on Optimization; SIAM Journal on Optimization; Mathematical Programming; Computational Optimization and Applications; IISE Transactions; Optimization Letters; Energy Systems; Omega: International Journal of Management Science; IEEE Transaction on Power Systems, Transactions on Smart Grid, and Transactions on Sustainable Energy; Electric Power Systems Research; IET Generation, Transmission and Distribution.
+		\item {\it Panelist}: National Science Foundation, 2023, 2017; Office of Naval Research, 2023, 2022; Department of Energy - Office of Science, 2023.
+		\item {\it Award Committee Member}: IISE Energy Systems Best Paper Award 2022; George Nicholson Student Paper Competition, INFORMS 2020 and 2021; INFORMS-ENRE Student Paper Competition, INFORMS, 2018.
+		\item {\it Faculty Advisor}: SMU INFORMS Student Chapter, 2018-2022.
+		\item \textit{Vice-President}: Ohio State University INFORMS Student Chapter, 2011-2012.
+	\end{itemize}
+	
+\section{Professional Society Membership}
+		\begin{itemize}[leftmargin=1em]
+			\item Institute for Operations Research and Management Science (INFORMS): Optimization Society; Computing Society; and Energy, Natural Resources, and Environment Society.
+			\item Society of Industrial and Applied Mathematics (SIAM).
+			\item Mathematical Optimization Society (MOS).
+		\end{itemize}
+	
+\section{Administrative Service}
+	\begin{itemize}[leftmargin=*]
+		\item Member, OR Program Recruiting and Marketing Committee, 2023-present;
+		\item Member, Lyle Faculty Search Committee, 2023-present;
+		\item Lyle School representative, SMU Faculty Senate; member, Economic Status committee, 2023 - present;
+		\item Member and chair, OREM Graduate Committee, 2022 - present;
+		\item Member, Faculty advisory group, Data Science Institute, 2022 - present;
+		\item EMIS/OREM Department Seminar Organizer, 2020 -- 2023;
+		\item EMIS department representative on Lyle Academic Affairs Committee, 2021 -- 2022;
+		\item Member and chair, EMIS Course Coordination Committee on OR Methods, 2019 -- 2022;
+		\item Member, EMIS Accreditation and Academic Programs, 2020 -- 2021;
+		\item Member, EMIS Faculty search committee, 2018-19, 2019-20, 2021-22;
+		\item Instructor, Summer Bit Blast, workshop organized by the Center for Research Computing (SMU), July 2022;
+		\item Judge, Dallas Regional Science and Engineering Fair, 2020 and 2021;
+		\item Judge, Lyle Research Day, 2016, 2017, 2018, and 2019.
+	\end{itemize}
+	
+\section{Invited Seminars}
+	\begin{itemize}[leftmargin=*]
+		\item Decision Sciences Area Seminar, Indian Institute of Management, Bangalore, December 2021.
+		\item Industrial Engineering, University of Houston, March 2021.
+		\item Industrial, Manufacturing, and Systems Engineering, University of Texas at Arlington, December 2018.
+		\item Center for Applicable Mathematics, Tata Institute of Fundamental Research, Bangalore, July 2018.
+		\item Department of Mechanical Engineering, University of Texas at Dallas, June 2018.
+		\item Dedman College Interdisciplinary Institute (DCII), Operations Research and Statistics Cluster towards Integrative Analytics, SMU, February 2017.
+		\item Department of Engineering Management, Information, and Systems, Southern Methodist University, February 2016.
+		\item Industrial Engineering Technical Innovation Seminar Series, Clemson University, November 2016.
+		\item Ming Hsieh Department of Electrical Engineering, University of Southern California, October 2014.
+		\item Daniel J Epstein Department of Industrial and Systems Engineering, University of Southern California, October 2014.
+	\end{itemize}
+
+\section{Conference Presentations}
+	\begin{itemize}[leftmargin=*]
+		\item \textit{New Formulations and Pricing Mechanisms for Stochastic Electricity Market Clearing Problem} with S.\ Ariyarathane,
+		\begin{itemize}
+			\item INFORMS Annual Meeting 2023, Phoenix, AZ, October 2023.
+		\end{itemize}		
+		\item \textit{Stochastic dynamic linear programming: A sequential sampling algorithm} with S.\ Sen, 
+		\begin{itemize} [leftmargin=1em]
+			\item Invited Mini-symposium: International Conference on Stochastic Programming, Davis, CA, June 2023.
+			\item INFORMS Optimization Society Conference, Greenville, SC, March 2020.
+			\item 21st Conference of the International Federation of Operational Research Societies, Quebec City, Canada, July 2017,
+			\item SIAM Conference on Optimization, Vancouver, Canada, May 2017.
+		\end{itemize}
+		\item \textit{Stochastic Branch-and-Cut Algorithm from a Sequential Sampling Perspective}
+		\begin{itemize}
+			\item SIAM Conference on Optimization, Seattle, WA, May 2023,
+		\end{itemize}
+		\item \textit{Sequential sampling-based solution algorithms for distributionally robust optimization},
+		\begin{itemize}
+			\item International Conference on Continuous Optimization, Lehigh, PA, July 2022.
+			\item International Conference on Stochastic Programming, Trondheim, July 2019.
+		\end{itemize}
+		\item \textit{A sampling-based branch-and-cut algorithm for two-stage stochastic mixed-integer programming},
+		\begin{itemize}
+			\item INFORMS Annual Meeting, Anaheim, 2021.
+		\end{itemize}
+		\item \textit{Stochastic decomposition for two-stage stochastic linear programs with random cost coefficients},
+		\begin{itemize}
+			\item INFORMS Annual Meeting, Phoenix, Nov. 2018.
+		\end{itemize}
+		\item \textit{Stochastic programming framework for coordinated operation of power systems with multiple microgrids},
+		\begin{itemize}[leftmargin=1em]
+			\item International Symposium on Mathematical Programming, Bordeaux, July 2018.
+			\item INFORMS Optimization Society Conference, Denver, March 2018.		
+		\end{itemize}
+		\item \textit{Sequential sampling-based optimization for power systems application}, INFORMS Annual Meeting, Nashville, Nov. 2016.
+		\item \textit{Convergence proofs of SDDP and multistage stochastic decomposition} with S.\ Sen, International Conference on Stochastic Programming, Buzios, Brazil, June 2016.
+%		\item \textit{Stochastic Optimization for Vaccine Vial Replenishment} with Z.\ Azadi and S.\ D.\ Eksioglu:
+%		\begin{itemize}[leftmargin=1em]
+%			\item INFORMS Annual Meeting, Nashville, Nov. 2016 (Honorable mention at MIF poster competition)
+%			\item IIE Annual Conference, Anaheim, May 2016.
+%		\end{itemize}
+%		\item \textit{A Rolling-Horizon Stochastic Optimization with Application in Power System} with S.\ Wang, S.\ D.\ Eksioglu and S.\ Mason, IIE Annual Conference, Anaheim, May 2016.
+%		\begin{itemize}[leftmargin=1em]
+%			\item INFORMS Annual Meeting, Nashville, Nov. 2016
+%			\item IIE Annual Conference, Anaheim, May 2016.
+%		\end{itemize}
+%		\item \textit{A Stochastic Optimization Framework for Distributed Decision-Making in Power Systems} with S.\ Wang, S.\ D.\ Eksioglu and S.\ Mason, IIE Annual Conference, Anaheim, 2016.
+%		\begin{itemize}[leftmargin=1em]
+%			\item INFORMS Annual Meeting, Nashville, Nov. 2016
+%			\item IIE Annual Conference, Anaheim, May 2016.
+%		\end{itemize}
+		\item \textit{Multiple timescale stochastic optimization for integrating renewable resources} with S.\ Sen:
+		\begin{itemize}[leftmargin=1em]
+			\item INFORMS Annual Meeting, San Francisco, Nov. 2014
+			\item Workshop on Optimization Under Uncertainty: Energy, Transportation and Natural Resources, University of California-Davis, Nov. 2014
+			\item Smartgrid Challenges, University of Arizona, Tucson, Mar. 2013.
+		\end{itemize}
+		\item \textit{Stochastic optimization of sub-hourly economic dispatch with wind generation}
+		\begin{itemize}[leftmargin=1em]
+			\item INFORMS Annual Meeting, San Francisco, Nov. 2014
+			\item INFORMS Annual Meeting, Minneapolis, Oct. 2013.
+		\end{itemize}
+		\item \textit{Dynamic coding and rate-control for serving deadline-constrained traffic over fading channels}, with A. Eryilmaz, IEEE International Symposium on Information Theory (ISIT), Austin, Jun. 2010.
+	\end{itemize}
+	
+\section{Workshops Attended}
+	\begin{itemize}[leftmargin=*]
+		\item ``Deep Learning'', 25th Annual Teaching Effectiveness Symposium, Center for Teaching Excellence, Southern Methodist University, August 2017.		
+		\item New Faculty Colloquium, INFORMS Annual Meeting 2016, Nashville, October 2016.
+		\item ``A Conversation between Artificial Intelligence, Operations Research and Control Theory on Stochastic Optimization'', NSF Workshop at Rutgers University, 2012.
+		\item ``Managing Uncertainty in Energy Infrastructure Investments'', Ph.D. Winter School, Oppdal, Norway, 2011 (recipient of workshop travel grant).
+		\item Ph.D. Workshop at 12th International Conference on Stochastic Programming, Halifax, NS, Canada, 2010.
+		\item Illinois Wireless Summer School, University of Illinois, Urbana-Champaign, IL, 2010 (recipient of summer school travel grant).
+	\end{itemize}
+	
+\end{resume} 
+\end{document} 
