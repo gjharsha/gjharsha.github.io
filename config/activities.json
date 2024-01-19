@@ -1,6 +1,10 @@
 {
-    "showOnMainPage": 6,
+    "showOnMainPage": 5,
     "activities": [
+        {
+            "text": "Excited to start a new project funded by the National Science Foundation on Coorperative 3D-printing. This is joint project with U. Houston and U. Arkansas.",
+            "date": "January 18, 2024"
+        },
         {
             "text": "Graduate seminar speaker in the Department of Systems and Industrial Engineering, University of Arizona, Tucson.",
             "date": "November 16, 2023"
