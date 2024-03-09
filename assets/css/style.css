@@ -559,15 +559,17 @@ img {
     background-position: right -70px top -30px;
 }
 
-.harshani-icon {
-    background-image: url("../../assets/images/harshani.jpg");
+.ishara-icon {
+    background-image: url("../../assets/images/ishara.jpg");
     background-size: 200px;
     background-position: right -25px top -10px;
 }
 
 
-.mahsa-icon {
-    background-image: url("../../assets/images/mahsa.jpg");
+.chhavi-icon {
+    background-image: url("../../assets/images/chhavi.jpg");
+    background-size: 250px;
+    background-position: right -0px top -150px;
 }
 
 .nahal-icon {
