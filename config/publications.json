@@ -1,5 +1,10 @@
 [
     {
+        "index": 28, 
+        "text": "K. Baker and H. Gangammanavar, <i>Locational Marginal Prices Obey DC Circuit Laws</i>, 2024",
+        "preprintLink": "https://arxiv.org/abs/2403.19032"
+    },
+    {
         "index": 27,
         "text": "N. Fadavi and H. Gangammanavar, <i>Active Set-based Inexact Proximal Bundle Algorithm for Stochastic Quadratic Programming</i>, 2024.",
         "preprintLink":"./papers_preprints/Fadavi_Gangammanavar_activeSetsSQP2023.pdf"
