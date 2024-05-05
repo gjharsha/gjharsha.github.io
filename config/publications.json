@@ -37,8 +37,9 @@
     },
     {
         "index": 21,
-	    "text": "N. Sakhavand, V. Chen, H. Gangammanavar, and J. Rosenberger, <i>Design of Experiments for the Stochastic Unit Commitment with Economic Dispatch Models</i>, accepted for publication in <b>EURO Journal on Computational Optimization</b>, 2024.",
-        "preprintLink": "https://cosmos.uta.edu/wp-content/uploads/2022/06/COSMOS-22-01.pdf"
+	    "text": "N. Sakhavand, J. Rosenberger, V. Chen, and H. Gangammanavar, <i>Design of Experiments for the Stochastic Unit Commitment with Economic Dispatch Models</i>, accepted for publication in <b>EURO Journal on Computational Optimization</b>, 2024.",
+        "preprintLink": "https://cosmos.uta.edu/wp-content/uploads/2022/06/COSMOS-22-01.pdf",
+        "onlineLink":"https://doi.org/10.1016/j.ejco.2024.100089" 
     },
     {
         "index": 20,
