@@ -565,6 +565,11 @@ img {
     background-position: right -25px top -10px;
 }
 
+.zhiyuan-icon {
+    background-image: url("../../assets/images/zhiyuan.jpg");
+    background-size: 170px;
+    background-position: right -15px top -50px;
+}
 
 .chhavi-icon {
     background-image: url("../../assets/images/chhavi.jpg");
