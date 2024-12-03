@@ -45,6 +45,9 @@
             if (Publications[i].onlineLink) {
                 html += ` <a href="${Publications[i].onlineLink}"target="_blank">(online)</a>`;
             }
+            if(Publications[i].description) {
+                html += `<div class="publication_description"><i> ${Publications[i].description} </i></div>`;
+            }
             $('#publication_' + Publications[i].index).append(html);
             $('.publication_' + Publications[i].index).append(html);
         }

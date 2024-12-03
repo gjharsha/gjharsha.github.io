@@ -210,7 +210,6 @@ img {
     background-repeat: no-repeat;
     border: 2px solid var(--border-color);
     width: 150px;
-    margin-bottom: 30px;
     height: 150px;
 }
 
@@ -514,24 +513,22 @@ img {
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border:1px solid var(--border-color-2);
-    border-radius: 10px;
+    border: none;
+    /* border-radius: 10px; */
     text-align: left;
-    outline: 1px blue;
     font-size: 18px;
-    margin-bottom: 5px;
   }
   
   .active, .project:hover {
-    background-color: #66ccff;
+    /* background-color: #66ccff; */
   }
-  
+
   .projectDetails {
     padding: 0px 18px;
     display: none;
     overflow: hidden;
     background-color: #def2fc;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-bottom:20px;
     transition: max-height 0.2s ease-out;
     font-size: 18px;
@@ -598,3 +595,16 @@ img {
 .student-icon {
     background-image: url("../../assets/images/portraitIcon.png");
 }
+
+.publication_description {
+    padding: 0px 20px;
+}
+
+.project-container {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.project-container:hover .projectDetails {
+    display: block;
+  }
