@@ -20,8 +20,9 @@
     },
     {
         "index": 25,
-        "text": "D. Cole, H. Gangammanavar, and V. M. Zavala, <i>Hierarchical Graph Modeling for Multi-Scale Optimization of Power Systems</i>, 2023.",
-        "preprintLink":"https://arxiv.org/pdf/2309.10568.pdf"
+        "text": "D. Cole, F. Pecci, O. J. Guerra, H. Gangammanavar, J. D. Jenkins, and V. M. Zavala, <i>Graph-Based Modeling and Decomposition of Hierarchical Optimization Problems</i>, 2025.",
+        "preprintLink":"https://arxiv.org/abs/2501.02098",
+        "description": "A shorter version of this paper appeared earlier entitled \"Hierarchical Graph Modeling for Multi-Scale Optimization of Power Systems.\""
     },
     {
         "index": 24,
