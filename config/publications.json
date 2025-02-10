@@ -37,12 +37,12 @@
     },
     {
         "index": 22,
-	    "text": "M. Ahn, H. Gangammanavar, and D. Troxell, <i>Tractable Continuous Approximations for Constraint Selection via Cardinality Minimization</i>, 2022.",
+	    "text": "M. Ahn, H. Gangammanavar, and D. Troxell, <i>Tractable Continuous Approximations for Constraint Selection via Cardinality Minimization</i>, accepted for publication in <b>INFORMS Journal on Optimization</b>, 2025.",
 	    "preprintLink":"./papers_preprints/Ahn_Gangammanavar_Troxell_cardinalityMin2022.pdf"
     },
     {
         "index": 21,
-	    "text": "N. Sakhavand, J. Rosenberger, V. Chen, and H. Gangammanavar, <i>Design of Experiments for the Stochastic Unit Commitment with Economic Dispatch Models</i>, accepted for publication in <b>EURO Journal on Computational Optimization</b>, 2024.",
+	    "text": "N. Sakhavand, J. Rosenberger, V. Chen, and H. Gangammanavar, <i>Design of Experiments for the Stochastic Unit Commitment with Economic Dispatch Models</i>, Volume 12, 100089, <b>EURO Journal on Computational Optimization</b>, 2024.",
         "preprintLink": "https://cosmos.uta.edu/wp-content/uploads/2022/06/COSMOS-22-01.pdf",
         "onlineLink":"https://doi.org/10.1016/j.ejco.2024.100089" 
     },
