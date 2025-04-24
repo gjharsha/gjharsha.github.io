@@ -38,7 +38,8 @@
     {
         "index": 22,
 	    "text": "M. Ahn, H. Gangammanavar, and D. Troxell, <i>Tractable Continuous Approximations for Constraint Selection via Cardinality Minimization</i>, accepted for publication in <b>INFORMS Journal on Optimization</b>, 2025.",
-	    "preprintLink":"./papers_preprints/Ahn_Gangammanavar_Troxell_cardinalityMin2022.pdf"
+	    "preprintLink":"./papers_preprints/Ahn_Gangammanavar_Troxell_cardinalityMin2022.pdf",
+        "onlineLink":"https://pubsonline.informs.org/doi/abs/10.1287/ijoo.2024.0038"
     },
     {
         "index": 21,
