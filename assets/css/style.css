@@ -597,6 +597,12 @@ img {
 }
 
 .publication_description {
+    color: gray;
+    padding: 0px 20px;
+}
+
+.publication_emph {
+    color: blue;
     padding: 0px 20px;
 }
 

@@ -48,6 +48,9 @@
             if(Publications[i].description) {
                 html += `<div class="publication_description"> ${Publications[i].description} </div>`;
             }
+            if(Publications[i].emph) {
+                html += `<div class="publication_emph"> ${Publications[i].emph} </div>`;
+            }
             $('#publication_' + Publications[i].index).append(html);
             $('.publication_' + Publications[i].index).append(html);
         }

@@ -1,7 +1,11 @@
 [
     {
+        "index": 30,
+        "text": "J. Zhou, H. Gangammanavar, and Y. Xiang, <i> Centralized Training for Partially Decentralized Execution in Multi-Agent Reinforcement Learning</i>, 2025."
+    },
+    {
         "index": 29,
-        "text": " G. Mou, J. Wang, H. Gangammanavar, D. Wu, <i> Energy Equity-Focused Stochastic Hydrogen Energy Storage Planning with Community Consensus</i>, 2024"
+        "text": " G. Mou, J. Wang, H. Gangammanavar, D. Wu, <i> Energy Equity-Focused Stochastic Hydrogen Energy Storage Planning with Community Consensus</i>, 2024."
     },
     {
         "index": 28,
@@ -10,7 +14,7 @@
     },
     {
         "index": 27,
-        "text": "N. Fadavi and H. Gangammanavar, <i>Active Set-based Inexact Proximal Bundle Algorithm for Stochastic Quadratic Programming</i>, 2024.",
+        "text": "<u>N. Fadavi</u> and H. Gangammanavar, <i>Active Set-based Inexact Proximal Bundle Algorithm for Stochastic Quadratic Programming</i>, 2024.",
         "preprintLink":"./papers_preprints/Fadavi_Gangammanavar_activeSetsSQP2023.pdf"
     },
     {
@@ -26,7 +30,7 @@
     },
     {
         "index": 24,
-        "text": "S. Ariyarathne and H. Gangammanavar, <i>New Formulations and Pricing Mechanisms for Stochastic Electricity Market Clearing Problem</i>, 2023.",
+        "text": "<u>S. Ariyarathne</u> and H. Gangammanavar, <i>New Formulations and Pricing Mechanisms for Stochastic Electricity Market Clearing Problem</i>, 2023.",
         "preprintLink":"./papers_preprints/Ariyarathne_Gangammanavar_SPclearingProblems_2023.pdf"
     },
     {
@@ -37,13 +41,14 @@
     },
     {
         "index": 22,
-	    "text": "M. Ahn, H. Gangammanavar, and D. Troxell, <i>Tractable Continuous Approximations for Constraint Selection via Cardinality Minimization</i>, accepted for publication in <b>INFORMS Journal on Optimization</b>, 2025.",
+	    "text": "M. Ahn, H. Gangammanavar, and <u>D. Troxell</u>, <i>Tractable Continuous Approximations for Constraint Selection via Cardinality Minimization</i>, accepted for publication in <b>INFORMS Journal on Optimization</b>, 2025.",
 	    "preprintLink":"./papers_preprints/Ahn_Gangammanavar_Troxell_cardinalityMin2022.pdf",
-        "onlineLink":"https://pubsonline.informs.org/doi/abs/10.1287/ijoo.2024.0038"
+        "onlineLink":"https://pubsonline.informs.org/doi/abs/10.1287/ijoo.2024.0038",
+        "emph": "For his work on this paper, David Troxell received an honorable mention in the INFORMS Undergraduate Research Award 2021."
     },
     {
         "index": 21,
-	    "text": "N. Sakhavand, J. Rosenberger, V. Chen, and H. Gangammanavar, <i>Design of Experiments for the Stochastic Unit Commitment with Economic Dispatch Models</i>, Volume 12, 100089, <b>EURO Journal on Computational Optimization</b>, 2024.",
+	    "text": "<u>N. Sakhavand</u>, J. Rosenberger, V. Chen, and H. Gangammanavar, <i>Design of Experiments for the Stochastic Unit Commitment with Economic Dispatch Models</i>, Volume 12, 100089, <b>EURO Journal on Computational Optimization</b>, 2024.",
         "preprintLink": "https://cosmos.uta.edu/wp-content/uploads/2022/06/COSMOS-22-01.pdf",
         "onlineLink":"https://doi.org/10.1016/j.ejco.2024.100089" 
     },
@@ -55,13 +60,13 @@
     },
     {
         "index": 19,
-        "text": "S. Ariyarathne, H. Gangammanavar, and R. Sundararajan <i>Change Point Detection in Nonstationary Sub-Hourly Wind Time Series</i>, <b>Applied Energy</b>, Volume 310, 118501, 2022.",
+        "text": "<u>S. Ariyarathne</u>, H. Gangammanavar, and R. Sundararajan <i>Change Point Detection in Nonstationary Sub-Hourly Wind Time Series</i>, <b>Applied Energy</b>, Volume 310, 118501, 2022.",
         "preprintLink": "./papers_preprints/Ariyarathne_Gangammanavar_Sundarajan_ChangePoint_2021.pdf",
 	    "onlineLink": "https://www.sciencedirect.com/science/article/abs/pii/S0306261921017165"
     },
     {
         "index": 18,
-        "text": " S. Tabrizian, H. Gangammanavar, and H. Uster, <i>An Adaptive Cluster Sampling-based Solution Method for Two-stage Stochastic Linear Programs</i>, 2020."
+        "text": " <u>S. Tabrizian</u>, H. Gangammanavar, and H. Uster, <i>An Adaptive Cluster Sampling-based Solution Method for Two-stage Stochastic Linear Programs</i>, 2020."
     },
     {
         "index": 17,
@@ -71,7 +76,7 @@
     },
     {
         "index": 16,
-        "text": "N. Sakhavand and H. Gangammanavar, <i>Subproblem sampling vs. scenario reduction: Efficacy comparison for stochastic programs in power systems applications</i>, accepted for publication in <b>Energy Systems</b>, 2022.",
+        "text": "<u>N. Sakhavand</u> and H. Gangammanavar, <i>Subproblem sampling vs. scenario reduction: Efficacy comparison for stochastic programs in power systems applications</i>, accepted for publication in <b>Energy Systems</b>, 2022.",
         "preprintLink": "./papers_preprints/Sakhavand_Gangammanavar_stocUCED_ES2022.pdf", 
         "onlineLink": "https://link.springer.com/article/10.1007/s12667-022-00558-9"
     },
@@ -83,7 +88,7 @@
     },
     {
         "index": 14,
-        "text": "D. Troxell, M. Ahn, and H. Gangammanavar,<i> A Cardinality Minimization Approach to Security-Constrained Economic Dispatch</i>, <b>IEEE Transactions on Power Systems</b>, vol. 37, no. 5, pp. 3642-3652, Sept. 2022.",
+        "text": "<u>D. Troxell</u>, M. Ahn, and H. Gangammanavar,<i> A Cardinality Minimization Approach to Security-Constrained Economic Dispatch</i>, <b>IEEE Transactions on Power Systems</b>, vol. 37, no. 5, pp. 3642-3652, Sept. 2022.",
         "preprintLink": "./papers_preprints/Troxell_Ahn_Gangammanavar_CMPbasedSCED_2021.pdf",
 	    "onlineLink": "https://ieeexplore.ieee.org/abstract/document/9640607"
     },
@@ -124,7 +129,8 @@
         "index": 7,
         "text": "Z. Azadi, H. Gangammanavar, and S. D. Eksioglu, <i> Developing Childhood Vaccine Administration and Inventory Replenishment Policies that Minimize Open Vial Wastage</i>, <b> Annals of Operations Research</b>, 292, p. 215–247, 2020.",
         "preprintLink": "./papers_preprints/Azadi_Gangammanavar_Eksioglu_VaccineSP_AOR2020.pdf",
-        "onlineLink": "https://link.springer.com/article/10.1007/s10479-019-03164-8"
+        "onlineLink": "https://link.springer.com/article/10.1007/s10479-019-03164-8",
+        "emph": "For her work on this paper, Zahra Azadi received a honorable mention at the INFORMS Minority Issues Forum poster competition"
     },
     {
         "index": 6,
