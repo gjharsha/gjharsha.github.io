@@ -544,16 +544,14 @@ img {
 /* Student images */
 .david-icon {
     background-image: url("../../assets/images/david.png");
+    background-size: 300px;
+    background-position: right -80px top -20px;
 }
 
 .jackson-icon {
     background-image: url("../../assets/images/jackson.jpg");
-}
-
-.emily-icon {
-    background-image: url("../../assets/images/emily.jpeg");
-    background-size: 350px;
-    background-position: right -70px top -30px;
+    background-size: 200px;
+    background-position: right -30px top -10px;
 }
 
 .ishara-icon {
@@ -562,16 +560,10 @@ img {
     background-position: right -25px top -10px;
 }
 
-.zhiyuan-icon {
-    background-image: url("../../assets/images/zhiyuan.jpg");
-    background-size: 170px;
-    background-position: right -15px top -50px;
-}
-
 .chhavi-icon {
     background-image: url("../../assets/images/chhavi.jpg");
-    background-size: 250px;
-    background-position: right -0px top -150px;
+    background-size: 300px;
+    background-position: right -5px top -170px;
 }
 
 .nahal-icon {
@@ -590,6 +582,18 @@ img {
 
 .siavash-icon {
     background-image: url("../../assets/images/siavash.jpg");
+}
+
+.zhixue-icon {
+    background-image: url("../../assets/images/zhixue.jpg");
+    background-size: 200px;
+    background-position: right -25px top -10px;
+}
+
+.zhiyuan-icon {
+    background-image: url("../../assets/images/zhiyuan.jpg");
+    background-size: 200px;
+    background-position: right -30px top -70px;
 }
 
 .student-icon {
