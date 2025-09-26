@@ -14,12 +14,12 @@
     },
     {
         "index": 27,
-        "text": "<u>N. Fadavi</u> and H. Gangammanavar, <i>Active Set-based Inexact Proximal Bundle Algorithm for Stochastic Quadratic Programming</i>, 2024.",
+        "text": "<u>N. Fadavi</u> and H. Gangammanavar, <i>Active Set-based Inexact Proximal Bundle Algorithm for Stochastic Quadratic Programming</i>, accepted for publication in <b>Computational Optimization and Applications</b>, 2024.",
         "preprintLink":"./papers_preprints/Fadavi_Gangammanavar_activeSetsSQP2023.pdf"
     },
     {
         "index": 26,
-        "text": "Z. Hoobakht, H. Gangammanavar and D. Rajan, <i>Optimal Spectral Allocation in Citizens Broadband Radio Service,</i> in <b>IEEE Transactions on Cognitive Communications and Networking</b>, vol. 10, no. 3, pp. 783-793, June 2024.",
+        "text": "Z. Hoobakht, H. Gangammanavar and D. Rajan, <i>Optimal Spectral Allocation in Citizens Broadband Radio Service</i>, <b>IEEE Transactions on Cognitive Communications and Networking</b>, vol. 10, no. 3, pp. 783-793, June 2024.",
         "onlineLink":"https://doi.org/10.1109/TCCN.2024.3384491"
     },
     {
@@ -41,14 +41,14 @@
     },
     {
         "index": 22,
-	    "text": "M. Ahn, H. Gangammanavar, and <u>D. Troxell</u>, <i>Tractable Continuous Approximations for Constraint Selection via Cardinality Minimization</i>, accepted for publication in <b>INFORMS Journal on Optimization</b>, 2025.",
+	    "text": "M. Ahn, H. Gangammanavar, and <u>D. Troxell</u>, <i>Tractable Continuous Approximations for Constraint Selection via Cardinality Minimization</i>, <b>INFORMS Journal on Optimization</b>, 7(3):195-213, 2025.",
 	    "preprintLink":"./papers_preprints/Ahn_Gangammanavar_Troxell_cardinalityMin2022.pdf",
         "onlineLink":"https://pubsonline.informs.org/doi/abs/10.1287/ijoo.2024.0038",
         "emph": "For his work on this paper, David Troxell received an honorable mention in the INFORMS Undergraduate Research Award 2021."
     },
     {
         "index": 21,
-	    "text": "<u>N. Sakhavand</u>, J. Rosenberger, V. Chen, and H. Gangammanavar, <i>Design of Experiments for the Stochastic Unit Commitment with Economic Dispatch Models</i>, Volume 12, 100089, <b>EURO Journal on Computational Optimization</b>, 2024.",
+	    "text": "<u>N. Sakhavand</u>, J. Rosenberger, V. Chen, and H. Gangammanavar, <i>Design of Experiments for the Stochastic Unit Commitment with Economic Dispatch Models</i>, <b>EURO Journal on Computational Optimization</b>, Volume 12, 100089, 2024.",
         "preprintLink": "https://cosmos.uta.edu/wp-content/uploads/2022/06/COSMOS-22-01.pdf",
         "onlineLink":"https://doi.org/10.1016/j.ejco.2024.100089" 
     },
@@ -76,7 +76,7 @@
     },
     {
         "index": 16,
-        "text": "<u>N. Sakhavand</u> and H. Gangammanavar, <i>Subproblem sampling vs. scenario reduction: Efficacy comparison for stochastic programs in power systems applications</i>, accepted for publication in <b>Energy Systems</b>, 2022.",
+        "text": "<u>N. Sakhavand</u> and H. Gangammanavar, <i>Subproblem sampling vs. scenario reduction: Efficacy comparison for stochastic programs in power systems applications</i>, <b>Energy Systems</b> 16, 111-139, 2025.",
         "preprintLink": "./papers_preprints/Sakhavand_Gangammanavar_stocUCED_ES2022.pdf", 
         "onlineLink": "https://link.springer.com/article/10.1007/s12667-022-00558-9"
     },
