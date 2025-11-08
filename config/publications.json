@@ -15,7 +15,8 @@
     {
         "index": 27,
         "text": "<u>N. Fadavi</u> and H. Gangammanavar, <i>Active Set-based Inexact Proximal Bundle Algorithm for Stochastic Quadratic Programming</i>, accepted for publication in <b>Computational Optimization and Applications</b>, 2025.",
-        "preprintLink":"./papers_preprints/Fadavi_Gangammanavar_activeSetsSQP2023.pdf"
+        "preprintLink":"./papers_preprints/Fadavi_Gangammanavar_activeSetsSQP2023.pdf",
+        "onlineLink":"https://doi.org/10.1007/s10589-025-00739-z"
     },
     {
         "index": 26,
