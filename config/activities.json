@@ -2,6 +2,10 @@
     "showOnMainPage": 6,
     "activities": [
         {
+            "text": "Our paper entitled \"A Decision-Aware Approach for Predicting Right-Hand Side Parameters in Linear Programs\" has been accepted for publication in the Proceedings of the INFORMS Optimization Society Conference, Atlanta GA, March 2026. This is joint work with Dr. John Forner (SMU-OREM) and Prof. Miju Ahn (SMU-OREM).",
+            "date": "February 13, 2026"
+        }, 
+        {
             "text": "Paper with my former student Niloofar Fadavi entitled \"Active Set-based Inexact Proximal Bundle Algorithm for Stochastic Quadratic Programming\" has been accepted for publication in Computational Optimization and Applications.",
             "date": "September 25, 2025"
 
