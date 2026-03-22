@@ -1,7 +1,8 @@
 [
     {
         "index": 32,
-        "text": "<u>C. Sharma</u> and H. Gangammanavar, <i> Data-driven Policies for Two-stage Stochastic Linear Programming</i>, 2026."
+        "text": "<u>C. Sharma</u> and H. Gangammanavar, <i> Data-driven Policies for Two-stage Stochastic Linear Programming</i>, 2026.",
+        "preprintLink": "./papers_preprints/Sharma_Gangammanavar_dataDrivenPolicies_2026.pdf"
     },
     {
         "index": 31,
@@ -17,12 +18,12 @@
     },
     {
         "index": 28,
-        "text": "K. Baker and H. Gangammanavar, <i> Locational Marginal Prices Obey DC Circuit Laws</i>, 2024", 
+        "text": "K. Baker and H. Gangammanavar, <i> Locational Marginal Prices Obey DC Circuit Laws</i>, 2024.", 
         "preprintLink": "https://arxiv.org/abs/2403.19032"    
     },
     {
         "index": 27,
-        "text": "<u>N. Fadavi</u> and H. Gangammanavar, <i>Active Set-based Inexact Proximal Bundle Algorithm for Stochastic Quadratic Programming</i>, accepted for publication in <b>Computational Optimization and Applications</b>, 2025.",
+        "text": "<u>N. Fadavi</u> and H. Gangammanavar, <i>Active Set-based Inexact Proximal Bundle Algorithm for Stochastic Quadratic Programming</i>, <b>Computational Optimization and Applications</b>, 93, 489-521, 2026.",
         "preprintLink":"./papers_preprints/Fadavi_Gangammanavar_activeSetsSQP2023.pdf",
         "onlineLink":"https://doi.org/10.1007/s10589-025-00739-z"
     },
@@ -33,7 +34,7 @@
     },
     {
         "index": 25,
-        "text": "D. Cole, F. Pecci, O. J. Guerra, H. Gangammanavar, J. D. Jenkins, and V. M. Zavala, <i>Graph-Based Modeling and Decomposition of Hierarchical Optimization Problems</i>, 2025.",
+        "text": "D. Cole, F. Pecci, O. J. Guerra, H. Gangammanavar, J. D. Jenkins, and V. M. Zavala, <i>Graph-Based Modeling and Decomposition of Hierarchical Optimization Problems</i>, accepted for publication in <b>Mathematical Programming Computation</b>, 2026.",
         "preprintLink":"https://arxiv.org/abs/2501.02098",
         "description": "A shorter version of this paper appeared earlier entitled \"Hierarchical Graph Modeling for Multi-Scale Optimization of Power Systems.\""
     },

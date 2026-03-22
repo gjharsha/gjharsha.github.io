@@ -2,6 +2,10 @@
     "showOnMainPage": 6,
     "activities": [
         {
+            "text": "Our paper on Graph-Based Modeling and Decomposition of Hierarchical Optimization Problems is publicshed in Mathematical Programming Computations. This work is led by Dr. David Cole and Prof. Victor Zavala (U. Wisconsin), our collaborators under the DOE project.",
+            "date": "March 19, 2026"
+        },
+        {
             "text": "Our paper entitled \"A Decision-Aware Approach for Predicting Right-Hand Side Parameters in Linear Programs\" has been accepted for publication in the Proceedings of the INFORMS Optimization Society Conference, Atlanta GA, March 2026. This is joint work with Dr. John Forner (SMU-OREM) and Prof. Miju Ahn (SMU-OREM).",
             "date": "February 13, 2026"
         }, 
