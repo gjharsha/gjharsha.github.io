@@ -6,7 +6,7 @@
     },
     {
         "index": 31,
-        "text": "J. Forner, M. Ahn, and H. Gangammanavar, <i> Decision-Aware Predictions for Right- Hand Side Parameters in Linear Programs</i>, accepted for publication in the <b>Proceedings of the INFORMS Optimization Society Conference</b>, Atlanta GA, March 2026.",
+        "text": "J. Forner, M. Ahn, and H. Gangammanavar, <i> Decision-Aware Predictions for Right- Hand Side Parameters in Linear Programs</i>, in the <b>Proceedings of the INFORMS Optimization Society Conference</b>, Atlanta GA, March 2026.",
         "preprintLink": "https://arxiv.org/abs/2604.11533",
         "onlineLink": "https://doi.org/10.5281/zenodo.19688348"
     },
@@ -20,7 +20,7 @@
     },
     {
         "index": 28,
-        "text": "K. Baker and H. Gangammanavar, <i> Locational Marginal Prices Obey DC Circuit Laws</i>, 2024.", 
+        "text": "K. Baker and H. Gangammanavar, <i> Locational Marginal Prices Obey DC Circuit Laws</i>, accepted for publication in the <b>Proceedings of the PowerUp Conference</b>, Boulder, CO, September 2026.", 
         "preprintLink": "https://arxiv.org/abs/2403.19032"    
     },
     {
@@ -174,7 +174,7 @@
     },
     {
         "index": 1,
-        "text": " H. Gangammanavar and A. Eryilmaz, <i>Dynamic Coding and Rate-Control for Serving Deadline-Constrained Traffic over Fading Channels</i>, in <b>Proceedings of IEEE International Symposium on Information Theory (ISIT)</b>, Austin TX, p. 1788–1792, 13-18 June 2010.",
+        "text": " H. Gangammanavar and A. Eryilmaz, <i>Dynamic Coding and Rate-Control for Serving Deadline-Constrained Traffic over Fading Channels</i>, in the <b>Proceedings of IEEE International Symposium on Information Theory (ISIT)</b>, Austin TX, p. 1788–1792, 13-18 June 2010.",
         "preprintLink": "./papers_preprints/Gangammanavar_Eryilmaz_ISIT10.pdf",
         "onlineLink": "https://ieeexplore.ieee.org/document/5513290/?arnumber=5513290"
     }
