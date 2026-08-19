@@ -1,5 +1,10 @@
 [
     {
+        "index": 33,
+        "text": "<u>Z. Wang</u>, <u>S. Ariyarathne</u>, H. Gangammanavar, and J. Wang, <i>Multiagent Optimization for Coordinated Operations of Transmission and Distribution System</i>, 2026.",
+        "preprintLink": "./papers_preprints/Sharma_Gangammanavar_dataDrivenPolicies_2026.pdf"
+    },
+    {
         "index": 32,
         "text": "<u>C. Sharma</u> and H. Gangammanavar, <i> Data-driven Policies for Two-stage Stochastic Linear Programming</i>, 2026.",
         "preprintLink": "./papers_preprints/Sharma_Gangammanavar_dataDrivenPolicies_2026.pdf"
