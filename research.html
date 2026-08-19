@@ -109,9 +109,8 @@
     <h1 style="margin-top:50px;">Current Projects:</h1>
     <div class="col-md-12">
       <div class="project-container">
-        <button class="project">1. XTRIPODS: Integrated Decision-Making in Data Science: New Models, Tractable
-          Reformulations,
-          and Validation through Undergraduate Projects. </button>
+        <button class="project" onclick="toggleProject(this)"><span>1. XTRIPODS: Integrated Decision-Making in Data Science: New Models, Tractable
+          Reformulations, and Validation through Undergraduate Projects.</span><span class="project-more">More</span></button>
         <div class="projectDetails">
           <ul>
             <li> <b>Funding agency:</b> National Science Foundation; #2423246</li>
@@ -120,13 +119,18 @@
             <li> <b>Links:</b> <a
                 href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2423246&HistoricalAwards=false">NSF
                 award details</a> </li>
+            <li> <b>Publications (that I co-authored):</b>
+              <ol>
+                <li> <div id="publication_31"></div> </li>
+              </ol>
+            </li>
           </ul>
         </div>
-      </div>
+      </div>      
       <div class="project-container">
-        <button class="project">2. Integrated Framework for Cooperative 3D Printing: Uncertainty Quantification,
+        <button class="project" onclick="toggleProject(this)"><span>2. Integrated Framework for Cooperative 3D Printing: Uncertainty Quantification,
           Decision
-          Models, and Algorithms. </button>
+          Models, and Algorithms.</span><span class="project-more">More</span></button>
         <div class="projectDetails">
           <ul>
             <li> <b>Funding agency:</b> National Science Foundation; #2329739</li>
@@ -146,8 +150,7 @@
         </div>
       </div>
       <div class="project-container">
-        <button class="project">3. New Abstractions and Randomized Algorithms for Multiscale Stochastic Optimization.
-        </button>
+        <button class="project" onclick="toggleProject(this)"><span>3. New Abstractions and Randomized Algorithms for Multiscale Stochastic Optimization.</span><span class="project-more">More</span></button>
         <div class="projectDetails">
           <ul>
             <li> <b>Funding agency:</b> Department of Energy - Office of Science; #DE-SC0023361</li>
@@ -161,16 +164,17 @@
                 coverage.</a></li>
             <li> <b>Publications (that I co-authored):</b>
               <ol>
-                <li> <div id="publication_25"></div> </li>
+                <li> <div id="publication_33"></div> </li>
                 <li> <div id="publication_32"></div> </li>
+                <li> <div id="publication_25"></div> </li>
               </ol>
             </li>
           </ul>
         </div>
       </div>
       <div class="project-container">
-        <button class="project">4. Decomposition-based Stochastic Programming Models and Algorithms for Discrete-event
-          Dynamic Systems.</button>
+        <button class="project" onclick="toggleProject(this)"><span>4. Decomposition-based Stochastic Programming Models and Algorithms for Discrete-event
+          Dynamic Systems.</span><span class="project-more">More</span></button>
         <div class="projectDetails">
           <ul>
             <li> <b>Funding agency:</b> Office of Naval Research; #N00014-22-1-2603</li>
@@ -178,7 +182,9 @@
             <li> <b> Role:</b> Principal Investigator</li>
             <li> <b>Publication:</b>
               <ol>
-                <li> <div id="publication_27"></div> </li>
+                <li> <div id="publication_33_4"></div> </li>
+                <li> <div id="publication_31"></div> </li>
+                <li> <div id="publication_27"></div> </li>                
                 <li> <div id="publication_24"></div> </li>
               </ol>
             </li>
@@ -190,8 +196,8 @@
     <h1 style="margin-top:50px;">Past Projects:</h1>
     <div class="col-md-12">
       <div class="project-container">
-        <button class="project">1. Data Assimilation for Radiation Therapy Planning via Optimization: Adaptive
-          Deterministic Models. </button>
+        <button class="project" onclick="toggleProject(this)"><span>1. Data Assimilation for Radiation Therapy Planning via Optimization: Adaptive
+          Deterministic Models.</span><span class="project-more">More</span></button>
         <div class="projectDetails">
           <ul>
             <li> <b>Funding agency:</b> SMU Lyle School of Engineering Research Seed Funding</li>
@@ -209,7 +215,7 @@
         </div>
       </div>
       <div class="project-container">
-        <button class="project">2. Multi-temporal flexibility services in transactive energy architecture.</button>
+        <button class="project" onclick="toggleProject(this)"><span>2. Multi-temporal flexibility services in transactive energy architecture.</span><span class="project-more">More</span></button>
         <div class="projectDetails">
           <ul>
             <li> <b>Funding agency:</b> SMU Lyle School of Engineering Research Seed Funding</li>
@@ -219,8 +225,8 @@
         </div>
       </div>
       <div class="project-container">
-        <button class="project">3. Data-driven Decision Support System for Coordinated Operation of Electricity and
-          Natural Gas Infrastructure.</button>
+        <button class="project" onclick="toggleProject(this)"><span>3. Data-driven Decision Support System for Coordinated Operation of Electricity and
+          Natural Gas Infrastructure.</span><span class="project-more">More</span></button>
         <div class="projectDetails">
           <ul>
             <li> <b>Funding agency:</b> SMU Lyle School of Engineering Research Seed Funding</li>
@@ -237,8 +243,8 @@
         </div>
       </div>
       <div class="project-container">
-        <button class="project">4. Statistical Optimality, Algorithms, and Resilience in Time-staged Stochastic
-          Systems.</button>
+        <button class="project" onclick="toggleProject(this)"><span>4. Statistical Optimality, Algorithms, and Resilience in Time-staged Stochastic
+          Systems.</span><span class="project-more">More</span></button>
         <div class="projectDetails">
           <ul>
             <li> <b>Funding agency:</b> Air Force Office of Scientific Research; #FA9550-15-1-0267 </li>
@@ -290,22 +296,35 @@
     </div>
   </div>
 
-  <!-- <script>
-    var coll = document.getElementsByClassName("project");
-    var i;
+  <script>
+    function toggleProject(button) {
+      var content = button.nextElementSibling;
+      var isExpanded = button.classList.contains("expanded");
+      var moreText = button.querySelector(".project-more");
 
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-          content.style.display = "none";
-        } else {
-          content.style.display = "block";
+      document.querySelectorAll(".project").forEach(function (projectButton) {
+        projectButton.classList.remove("expanded");
+        var sibling = projectButton.nextElementSibling;
+        if (sibling && sibling.classList.contains("projectDetails")) {
+          sibling.style.display = "none";
+        }
+        var projectMore = projectButton.querySelector(".project-more");
+        if (projectMore) {
+          projectMore.textContent = "More";
         }
       });
+
+      if (!isExpanded) {
+        button.classList.add("expanded");
+        if (content && content.classList.contains("projectDetails")) {
+          content.style.display = "block";
+        }
+        if (moreText) {
+          moreText.textContent = "Less";
+        }
+      }
     }
-  </script> -->
+  </script>
 
 </body>
 

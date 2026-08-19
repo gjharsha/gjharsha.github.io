@@ -508,16 +508,45 @@ img {
 
 /* Project listing and details as collapsable buttons */
 .project {
-    background-color: #def2fc;
-    color: black;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    /* border-radius: 10px; */
-    text-align: left;
-    font-size: 18px;
-  }
+  background-color: #def2fc;
+  color: black;
+  cursor: pointer;
+  padding: 22px 18px 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  
+  /* Layout constraints for collapsing */
+  box-sizing: border-box;
+  overflow: hidden;
+  max-height: 90px; /* Provide enough room for wrapped titles */
+  transition: max-height 0.3s ease-out; /* Smoothly animates the expansion */
+}
+
+.project span:first-child {
+  flex: 1;
+}
+
+.project-more {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  white-space: nowrap;
+  margin-top: 4px;
+}
+
+/* Expanded state triggered by JavaScript */
+.project.expanded {
+  max-height: 500px; /* Use a value larger than your total expanded content height */
+}
   
   .active, .project:hover {
     /* background-color: #66ccff; */
@@ -614,7 +643,3 @@ img {
     position: relative;
     margin-bottom: 5px;
 }
-
-.project-container:hover .projectDetails {
-    display: block;
-  }

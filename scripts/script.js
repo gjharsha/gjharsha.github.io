@@ -51,8 +51,7 @@
             if(Publications[i].emph) {
                 html += `<div class="publication_emph"> ${Publications[i].emph} </div>`;
             }
-            $('#publication_' + Publications[i].index).append(html);
-            $('.publication_' + Publications[i].index).append(html);
+            $('#publication_' + Publications[i].index + ', [id^="publication_' + Publications[i].index + '_"], .publication_' + Publications[i].index).append(html);
         }
     });
 
