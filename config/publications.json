@@ -1,13 +1,18 @@
 [
     {
+        "index": 34,
+        "text": "<u>J. Forner</u>, M. Ahn, and H. Gangammanavar, <i> Decision-Aware Predictions for Right- Hand Side Parameters in Linear Programs</i>, 2026.",
+        "description": "An extended version of the paper that appeared in the Proceedings of the INFORMS Optimization Society Conference, Atlanta GA, March 2026."
+    },
+    {
         "index": 33,
         "text": "<u>Z. Wang</u>, <u>S. Ariyarathne</u>, H. Gangammanavar, and J. Wang, <i>Multiagent Optimization for Coordinated Operations of Transmission and Distribution System</i>, 2026.",
-        "preprintLink": "./papers_preprints/Sharma_Gangammanavar_dataDrivenPolicies_2026.pdf"
+        "preprintLink": "./papers_preprints/WangEtAl_Coordinated_TS_DS_Planning.pdf"
     },
     {
         "index": 32,
         "text": "<u>C. Sharma</u> and H. Gangammanavar, <i> Data-driven Policies for Two-stage Stochastic Linear Programming</i>, 2026.",
-        "preprintLink": "./papers_preprints/Sharma_Gangammanavar_dataDrivenPolicies_2026.pdf"
+        "preprintLink": "./papers_preprints/Sharma_Gangammanavar_2slpPolicies.pdf"
     },
     {
         "index": 31,
